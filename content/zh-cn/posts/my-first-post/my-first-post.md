@@ -263,7 +263,7 @@ hugo new posts\first-post.md
 
 注意文章开头的draft要设置成false才可以渲染文章。
 
-![image-20230201131938237](C:\Users\16536\AppData\Roaming\Typora\typora-user-images\image-20230201131938237.png)
+![ID885.png](https://i.328888.xyz/2023/02/01/ID885.png)
 
 ## 5. 在本地启动你的网站
 
@@ -285,3 +285,4 @@ hugo server
 
 # 在Git Pages上面发布你的网站
 
+（填个小坑，这几天补上）
