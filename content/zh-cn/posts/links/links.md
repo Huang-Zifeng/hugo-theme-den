@@ -1,20 +1,16 @@
 ---
 title: "友鏈"
 date: 2023-02-01T12:03:46+08:00
-layout: "links"
 menu: "main"
 weight: 90
 draft: false
-rss_ignore: true
 
 ---
 
 ## 👨🏻‍💻 友链
 
-<div class="flink" id="article-container">
-<div class="friend-list-div" >
-
-{{< friend name="FunCheong`s Blog" url="https://funcheong.cn/" logo="http://images.funcheong.cn/laughingCat.jpg" >}}
+[![I0hWx.png](https://i.328888.xyz/2023/02/02/I0hWx.png)](https://funcheong.cn/)
 
 </div>
 </div>
+
