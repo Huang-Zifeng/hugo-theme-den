@@ -6,14 +6,4 @@ menu: "main"
 weight: 50
 ---
 
-Hugo 是個靜態網頁產生器。
-
-
-它利用了一些開放原始碼的專案像是：
-
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-了解並貢獻： [GitHub](https://github.com/gohugoio).
+哈尔滨工业大学(深圳)自动化在读，会简单的STM32开发（只会HAL库），会简单的机器视觉，会简单的深度学习，目标是成为全栈工程师(*￣▽￣*)

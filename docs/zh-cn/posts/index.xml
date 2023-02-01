@@ -6,32 +6,14 @@
     <description>Recent content in Posts on Mitcher</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 05 Mar 2018 16:01:23 +0800</lastBuildDate><atom:link href="https://huang-zifeng.github.io/zh-cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Feb 2023 12:10:21 +0800</lastBuildDate><atom:link href="https://huang-zifeng.github.io/zh-cn/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>標頭圖片</title>
-      <link>https://huang-zifeng.github.io/zh-cn/2018/03/05/%E6%A8%99%E9%A0%AD%E5%9C%96%E7%89%87/</link>
-      <pubDate>Mon, 05 Mar 2018 16:01:23 +0800</pubDate>
+      <title>搭建你的第一个博客</title>
+      <link>https://huang-zifeng.github.io/zh-cn/2023/02/01/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 01 Feb 2023 12:10:21 +0800</pubDate>
       
-      <guid>https://huang-zifeng.github.io/zh-cn/2018/03/05/%E6%A8%99%E9%A0%AD%E5%9C%96%E7%89%87/</guid>
-      <description>這是一個簡單的筆記。</description>
-    </item>
-    
-    <item>
-      <title>筆記 2</title>
-      <link>https://huang-zifeng.github.io/zh-cn/2018/03/04/%E7%AD%86%E8%A8%98-2/</link>
-      <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>https://huang-zifeng.github.io/zh-cn/2018/03/04/%E7%AD%86%E8%A8%98-2/</guid>
-      <description>這是一個簡單的筆記。</description>
-    </item>
-    
-    <item>
-      <title>筆記 1</title>
-      <link>https://huang-zifeng.github.io/zh-cn/2018/03/03/%E7%AD%86%E8%A8%98-1/</link>
-      <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>https://huang-zifeng.github.io/zh-cn/2018/03/03/%E7%AD%86%E8%A8%98-1/</guid>
-      <description>這是一個簡單的筆記。</description>
+      <guid>https://huang-zifeng.github.io/zh-cn/2023/02/01/%E6%90%AD%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>今天在这里给大家分享如何快速用Hugo搭建自己的个人博客。 一、环境搭建 本文面对对Git有一定基础知识的读者（搭建仓库、Push和Pull操作</description>
     </item>
     
   </channel>
