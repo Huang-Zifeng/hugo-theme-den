@@ -235,7 +235,7 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new posts<span class="se">\f</span>irst-post.md
 </span></span></code></pre></div><p>来发布你的第一篇文章吧。</p>
 <p>注意文章开头的draft要设置成false才可以渲染文章。</p>
-<p><img src="C:%5CUsers%5C16536%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230201131938237.png" alt="image-20230201131938237"></p>
+<p><img src="https://i.328888.xyz/2023/02/01/ID885.png" alt="ID885.png"></p>
 <h2 id="5-在本地启动你的网站">5. 在本地启动你的网站</h2>
 <p>使用以下命令启动网站:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo serve
@@ -244,6 +244,7 @@
 </span></span></code></pre></div><p>去查看 <code>http://localhost:1313</code>.</p>
 <p><img src="https://i.328888.xyz/2023/02/01/8Tiqy.png" alt="8Tiqy.png"></p>
 <h1 id="在git-pages上面发布你的网站">在Git Pages上面发布你的网站</h1>
+<p>（填个小坑，这几天补上）</p>
 ]]></content:encoded>
     </item>
     
