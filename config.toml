@@ -125,19 +125,19 @@ defaultContentLanguageInSubdir = true
     name = "Links"
     weight = 20
     identifier = "links"
-    url = "category/links/"
+    url = "/links/"
 
   [[languages.en.menu.social]]
     name = "GitHub"
     weight = 10
     identifier = "github"
-    url = "https://github.com/shaform/hugo-theme-den/"
+    url = "https://github.com/Huang-Zifeng/"
 
   [[languages.en.menu.links]]
     name = "About Me"
     weight = 10
     identifier = "about-me"
-    url = "https://github.com/shaform/hugo-theme-den/"
+    url = "https://github.com/Huang-Zifeng/"
 
 [languages.zh-cn]
   languageCode = "zh-cn"
@@ -157,16 +157,16 @@ defaultContentLanguageInSubdir = true
     name = "友鏈"
     weight = 20
     identifier = "links"
-    url = "category/links/"
+    url = "/links/"
 
   [[languages.zh-cn.menu.social]]
     name = "GitHub"
     weight = 10
     identifier = "github"
-    url = "https://github.com/shaform/hugo-theme-den/"
+    url = "https://github.com/Huang-Zifeng/"
 
   [[languages.zh-cn.menu.links]]
     name = "關於我"
     weight = 10
     identifier = "about-me"
-    url = "https://github.com/shaform/hugo-theme-den/"
+    url = "https://github.com/Huang-Zifeng/"
