@@ -125,7 +125,7 @@ defaultContentLanguageInSubdir = true
     name = "Links"
     weight = 20
     identifier = "links"
-    url = "links/"
+    url = "category/links/"
 
   [[languages.en.menu.social]]
     name = "GitHub"
@@ -157,7 +157,7 @@ defaultContentLanguageInSubdir = true
     name = "友鏈"
     weight = 20
     identifier = "links"
-    url = "links/"
+    url = "/links/"
 
   [[languages.zh-cn.menu.social]]
     name = "GitHub"

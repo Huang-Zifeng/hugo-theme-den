@@ -6,7 +6,7 @@
     <description>Recent content on Mitcher</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Feb 2023 12:10:21 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 01 Feb 2023 21:42:41 +0800</lastBuildDate>
     
     <atom:link href="https://huang-zifeng.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,28 @@
       <guid>https://huang-zifeng.github.io/zh-cn/about/</guid>
       <description>哈尔滨工业大学(深圳)自动化在读，会简单的STM32开发（只会HAL库），会简单的机器视觉，会简单的深度学习，目标是成为全栈工程师(￣▽￣)</description>
       <content:encoded><![CDATA[<p>哈尔滨工业大学(深圳)自动化在读，会简单的STM32开发（只会HAL库），会简单的机器视觉，会简单的深度学习，目标是成为全栈工程师(<em>￣▽￣</em>)</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://huang-zifeng.github.io/zh-cn/2023/02/01/links/</link>
+      <pubDate>Wed, 01 Feb 2023 21:42:41 +0800</pubDate>
+      
+      <guid>https://huang-zifeng.github.io/zh-cn/2023/02/01/links/</guid>
+      <description>FunCheong`s Blog 你相信引力吗</description>
+      <content:encoded><![CDATA[<a target="_blank" href=https://funcheong.cn/ title=FunCheong&#96;s&#32;Blog class="friendurl">
+  <div class="frienddiv">
+    <div class="frienddivleft">
+      <img class="myfriend" src=http://images.funcheong.cn/laughingCat.jpg />
+    </div>
+    <div class="frienddivright">
+      <div class="friendname">FunCheong`s Blog</div>
+      <div class="friendinfo">你相信引力吗</div>
+    </div>
+  </div>
+</a>
+
 ]]></content:encoded>
     </item>
     
