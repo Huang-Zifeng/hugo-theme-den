@@ -81,7 +81,7 @@ defaultContentLanguageInSubdir = true
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  customCSS = []             # if ['custom.css'], load '/static/css/custom.css' file
+  customCSS = ['custom.css']             # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []              # if ['custom.js'], load '/static/js/custom.js' file
 
 # ------------------------------------- #
@@ -121,11 +121,6 @@ defaultContentLanguageInSubdir = true
     weight = 10
     identifier = "notes"
     url = "category/notes/"
-  [[languages.en.menu.main]]
-    name = "Links"
-    weight = 20
-    identifier = "links"
-    url = "category/links/"
 
   [[languages.en.menu.social]]
     name = "GitHub"
@@ -153,11 +148,6 @@ defaultContentLanguageInSubdir = true
     weight = 10
     identifier = "notes"
     url = "category/notes/"
-  [[languages.zh-cn.menu.main]]
-    name = "友鏈"
-    weight = 20
-    identifier = "links"
-    url = "links/"
 
   [[languages.zh-cn.menu.social]]
     name = "GitHub"
