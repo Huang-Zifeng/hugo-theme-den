@@ -1,0 +1,13 @@
+url = "https://huang-zifeng.github.io/"
+
+[name]
+display = "Mitcher"
+
+[image]
+url = "images/author.webp"
+
+[zh]
+description = "20嵗，是個學生"
+
+[en]
+description = "A Srudent."

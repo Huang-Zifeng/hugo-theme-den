@@ -4,14 +4,14 @@
 baseURL = "https://huang-zifeng.github.io/"
 title = "Mitcher"
 theme = "hugo-theme-den"
-#enableRobotsTXT = true       # generate robots.txt
+enableRobotsTXT = true      # generate robots.txt
 enableEmoji = true           # use emoji support
 hasCJKLanguage = true        # detect CJK languages for word count etc.
 preserveTaxonomyNames = true # do not make tag names lowercase
 # uglyURLs = true            # more info: https://gohugo.io/content-management/urls/#ugly-urls
-rssLimit = 20                # limit number of entries in RSS feeds
-ignoreErrors = ["error-remote-getjson"]
+rssLimit = 100                # limit number of entries in RSS feeds
 publishDir = "docs"
+page_view_conter = true
 
 # Copyright, appears in the footer
 # copyright = ""             # default: author.name
@@ -30,19 +30,19 @@ PygmentsUseClasses = true    # required for shhighlight shortcode
 disqusShortname = ""         # disqus_shortname
 googleAnalytics = ""         # UA-XXXXXXXX-X
 
-# language support # en / zh-cn / other... translations present in i18n/
-defaultContentLanguage = "zh-cn"           # Default language to use
+# language support # en / zh / other... translations present in i18n/
+defaultContentLanguage = "zh"           # Default language to use
 defaultContentLanguageInSubdir = true
 
 # Links format
 [permalinks]
-  posts = "/:year/:month/:day/:slug/"
+  posts = "/:year/:month/:day/:filename/"
   categories = "/category/:slug/"      # required
-  tags = "/tag/:slug/"                 # required
+  tags = "/tag/:slug/"                # required
   pages = "/:slug/"
 
 [author]                     # required
-  name = "Mitcher"
+  name = "Zifeng Huang"
 
 [sitemap]                    # required
   changefreq = "weekly"
@@ -58,11 +58,11 @@ defaultContentLanguageInSubdir = true
   rssFullContent = true      # set true to use full content instead of summary
 
   # site info (optional)
-  keywords = ["Hugo", "theme","den"]
-  description = "A Student Aged 20"
+  keywords = ["plan","do","life"]
+  description = "Robotics | Programming | Photography | Misty"
   logoTitle = "Mitcher" # shown on top-left, default: title
-  siteLogoImage = "images/globe.svg"     # shown besides logoTitle
-  # headerTitle = "Den"                   # default: title
+  # siteLogoImage = "images/fly.png"     # shown besides logoTitle
+  # headerTitle = "Mitcher"                   # default: title
   headerImage = "images/background.jpg"
   showAuthorCard = true # Whether to show author information below the article
 
@@ -72,7 +72,7 @@ defaultContentLanguageInSubdir = true
 
   # paginate style, default use numbered pagination links
   # if true, use original "Previous" and "Next" links.
-  # paginateOriginalStyle = true
+  paginateOriginalStyle = true
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
@@ -83,6 +83,11 @@ defaultContentLanguageInSubdir = true
   #   (relative to /static/css and /static/js respectively)
   customCSS = ['custom.css']             # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []              # if ['custom.js'], load '/static/js/custom.js' file
+
+  [markup]
+      [markup.goldmark]
+        [markup.goldmark.renderer]
+          unsafe = true
 
 # ------------------------------------- #
 # ---- Related Articles --------------- #
@@ -95,7 +100,7 @@ defaultContentLanguageInSubdir = true
   includeNewer = true
 
   # Will lower case keywords in both queries and in the indexes.
-  toLower = false
+  toLower = true
 
 [[related.indices]]
   name = "categories"
@@ -134,28 +139,28 @@ defaultContentLanguageInSubdir = true
     identifier = "about-me"
     url = "https://github.com/Huang-Zifeng/"
 
-[languages.zh-cn]
-  languageCode = "zh-cn"
+[languages.zh]
+  languageCode = "zh"
   languageName = "中文"
-  contentDir = "content/zh-cn"
+  contentDir = "content/zh"
   weight = 2
 
-  [languages.zh-cn.params]
+  [languages.zh.params]
     description = "20嵗，是個學生。"
 
-  [[languages.zh-cn.menu.main]]
+  [[languages.zh.menu.main]]
     name = "筆記"
     weight = 10
     identifier = "notes"
     url = "category/notes/"
 
-  [[languages.zh-cn.menu.social]]
+  [[languages.zh.menu.social]]
     name = "GitHub"
     weight = 10
     identifier = "github"
     url = "https://github.com/Huang-Zifeng/"
 
-  [[languages.zh-cn.menu.links]]
+  [[languages.zh.menu.links]]
     name = "關於我"
     weight = 10
     identifier = "about-me"

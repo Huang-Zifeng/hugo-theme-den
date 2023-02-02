@@ -10,26 +10,5 @@
     <atom:link href="https://huang-zifeng.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>About</title>
-      <link>https://huang-zifeng.github.io/en/about/</link>
-      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
-      
-      <guid>https://huang-zifeng.github.io/en/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
-Cobra Viper J Walter Weatherman Cast Learn more and contribute on GitHub.</description>
-      <content:encoded><![CDATA[<p>Hugo is a static site engine written in Go.</p>
-<p>It makes use of a variety of open source projects including:</p>
-<ul>
-<li><a href="https://github.com/spf13/cobra">Cobra</a></li>
-<li><a href="https://github.com/spf13/viper">Viper</a></li>
-<li><a href="https://github.com/spf13/jWalterWeatherman">J Walter Weatherman</a></li>
-<li><a href="https://github.com/spf13/cast">Cast</a></li>
-</ul>
-<p>Learn more and contribute on <a href="https://github.com/gohugoio">GitHub</a>.</p>
-]]></content:encoded>
-    </item>
-    
   </channel>
 </rss>
