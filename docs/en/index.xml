@@ -10,5 +10,19 @@
     <atom:link href="https://huang-zifeng.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>關於</title>
+      <link>https://huang-zifeng.github.io/en/about/</link>
+      <pubDate>Thu, 02 Feb 2023 13:10:27 +0800</pubDate>
+      
+      <guid>https://huang-zifeng.github.io/en/about/</guid>
+      <description>✋ Hi，我是黄梓峰 哈工深自动化大二在读。 希望不断学习，不断成长。现阶段的目标是能够在忙碌的闲隙里不断思考，多阅读写作。</description>
+      <content:encoded><![CDATA[<h2 id="-hi我是黄梓峰">✋ Hi，我是黄梓峰</h2>
+<p>哈工深自动化大二在读。</p>
+<p>希望不断学习，不断成长。现阶段的目标是能够在忙碌的闲隙里不断思考，多阅读写作。</p>
+<p><img src="https://image.pseudoyu.com/images/dino.gif" alt="picture"></p>
+]]></content:encoded>
+    </item>
+    
   </channel>
 </rss>

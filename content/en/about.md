@@ -1,13 +1,15 @@
 ---
-title: "About"
-date: 2021-03-04T16:03:46+08:00
+title: "關於"
+date: 2023-02-02T13:10:27+08:00
 menu: "main"
 weight: 100
-rss_ignore: true
+draft: false
 ---
 
-## ✋ Hi, I'm [Huang Zifeng](https://huang-zifeng.github.io/)
+## ✋ Hi，我是黄梓峰
 
-I want to learn things and become a better person. I enjoy reading, thinking and writing in my leisure time.
+哈工深自动化大二在读。
+
+希望不断学习，不断成长。现阶段的目标是能够在忙碌的闲隙里不断思考，多阅读写作。
 
 ![picture](https://image.pseudoyu.com/images/dino.gif)
