@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mitcher</title>
-    <link>https://huang-zifeng-github-io.vercel.app/zh/</link>
+    <link>https://huang-zifeng.github.io/zh/</link>
     <description>Recent content on Mitcher</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 01 Feb 2023 12:10:21 +0800</lastBuildDate>
     
-    <atom:link href="https://huang-zifeng-github-io.vercel.app/zh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://huang-zifeng.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>關於</title>
-      <link>https://huang-zifeng-github-io.vercel.app/zh/about/</link>
+      <link>https://huang-zifeng.github.io/zh/about/</link>
       <pubDate>Thu, 02 Feb 2023 13:10:27 +0800</pubDate>
       
-      <guid>https://huang-zifeng-github-io.vercel.app/zh/about/</guid>
+      <guid>https://huang-zifeng.github.io/zh/about/</guid>
       <description>✋ Hi，我是黄梓峰 哈工深自动化大二在读。 希望不断学习，不断成长。现阶段的目标是能够在忙碌的闲隙里不断思考，多阅读写作。</description>
       <content:encoded><![CDATA[<h2 id="-hi我是黄梓峰">✋ Hi，我是黄梓峰</h2>
 <p>哈工深自动化大二在读。</p>
@@ -27,10 +27,10 @@
     
     <item>
       <title>搭建你的第一个博客</title>
-      <link>https://huang-zifeng-github-io.vercel.app/zh/2023/02/01/my-first-post/</link>
+      <link>https://huang-zifeng.github.io/zh/2023/02/01/my-first-post/</link>
       <pubDate>Wed, 01 Feb 2023 12:10:21 +0800</pubDate>
       
-      <guid>https://huang-zifeng-github-io.vercel.app/zh/2023/02/01/my-first-post/</guid>
+      <guid>https://huang-zifeng.github.io/zh/2023/02/01/my-first-post/</guid>
       <description>今天在这里给大家分享如何快速用Hugo搭建自己的个人博客。 一、环境搭建 本文面对对Git有一定基础知识的读者（搭建仓库、Push和Pull操作</description>
       <content:encoded><![CDATA[<p>今天在这里给大家分享如何快速用Hugo搭建自己的个人博客。</p>
 <h1 id="一环境搭建">一、环境搭建</h1>
