@@ -10,13 +10,12 @@ rss_ignore: true
 
 <div class="flink" id="article-container">
 <div class="friend-list-div" >
-
-{{< friend name="FunCheong" url="https://funcheong.cn/" logo="http://images.funcheong.cn/laughingCat.jpg" word="你相信引力吗" >}}
+{{< friend name="FunCheong" url="https://funcheong.cn/" logo="http://images.funcheong.cn/laughingCat.jpg" word="你相信引力吗" >}}{{< friend name="Pseudoyu" url="https://www.pseudoyu.com/" logo="https://www.pseudoyu.com/images/author.webp" word="区块链开发工程师，喜欢探索新技术" >}}
 
 </div>
 </div>
 
-## ✋ Hi，我是 [Huang Zifeng](https://huang-zifeng.github.io/)
+## ✋  一起成为朋友吧
 
 交换友链可发邮件至 Mitcher2022@outlook.com
 
