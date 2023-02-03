@@ -1,7 +1,7 @@
 # ------------------------------------- #
 # ---- General Settings --------------- #
 # ------------------------------------- #
-baseURL = "https://huang-zifeng.github.io/"
+baseURL = "https://huang-zifeng-github-io.vercel.app/"
 title = "Mitcher"
 theme = "hugo-theme-den"
 enableRobotsTXT = true      # generate robots.txt
