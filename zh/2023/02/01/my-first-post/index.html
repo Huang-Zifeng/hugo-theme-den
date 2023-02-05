@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta name="generator" content="Hugo 0.110.0" />
+  <meta charset="utf-8">
+  <title>搭建你的第一个博客 · Mitcher</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<script async defer data-website-id="058488c2-18d4-498a-b683-0a898b3f6c7a" src="https://data.pseudoyu.com/pseudoyu.js"></script>
+<script async src="https://cdn.splitbee.io/sb.js"></script>
+<script src="https://cdn.splitbee.io/sb-ab.js"></script>
+
+  <meta name="description" content="今天在这里给大家分享如何快速用Hugo搭建自己的个人博客。 一、环境搭建 本文面对对Git有一定基础知识的读者（搭建仓库、Push和Pull操作" />
+
+  <meta name="keywords" content="plan, do, life" />
+
+<link rel="canonical" href="https://huang-zifeng.github.io/zh/2023/02/01/my-first-post/" />
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://huang-zifeng.github.io/css/den.css">
+
+<link rel="stylesheet" href="https://huang-zifeng.github.io/css/custom.css">
+
+
+
+
+<meta property="og:title" content="搭建你的第一个博客" />
+<meta property="og:description" content="今天在这里给大家分享如何快速用Hugo搭建自己的个人博客。 一、环境搭建 本文面对对Git有一定基础知识的读者（搭建仓库、Push和Pull操作" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://huang-zifeng.github.io/zh/2023/02/01/my-first-post/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-01T12:10:21+08:00" />
+<meta property="article:modified_time" content="2023-02-01T12:10:21+08:00" />
+<meta itemprop="name" content="搭建你的第一个博客">
+<meta itemprop="description" content="今天在这里给大家分享如何快速用Hugo搭建自己的个人博客。 一、环境搭建 本文面对对Git有一定基础知识的读者（搭建仓库、Push和Pull操作"><meta itemprop="datePublished" content="2023-02-01T12:10:21+08:00" />
+<meta itemprop="dateModified" content="2023-02-01T12:10:21+08:00" />
+<meta itemprop="wordCount" content="1447">
+<meta itemprop="keywords" content="博客," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="搭建你的第一个博客"/>
+<meta name="twitter:description" content="今天在这里给大家分享如何快速用Hugo搭建自己的个人博客。 一、环境搭建 本文面对对Git有一定基础知识的读者（搭建仓库、Push和Pull操作"/>
+</head>
+<body>
+  
+  <div class="header-container" style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://huang-zifeng.github.io/images/background.jpg'); background-position: center; background-size: cover;">
+  <div class="container">
+  <nav class="header-nav navbar navbar-expand-md navbar-dark light-dark">
+    <div class="header-logo navbar-brand">
+      
+        <a class="float-left" href="https://huang-zifeng.github.io/zh/">
+      
+        
+        
+          Mitcher
+         
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="nav-menu collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        
+          <li class="nav-item">
+            
+              
+                <a class="nav-link" href="https://huang-zifeng.github.io/zh/category/notes/">筆記</a>
+              
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              <a class="nav-link" href="https://huang-zifeng.github.io/zh/links/">友鏈</a>
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              <a class="nav-link" href="https://huang-zifeng.github.io/zh/about/">關於</a>
+            
+          </li>
+        
+        
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<div class="container header-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="header-content">
+        <h1 class="header-title">搭建你的第一个博客</h1>
+        <p class="header-date">作者：
+          Mitcher
+          | <span> 1447 words, 3 minutes</span>
+        
+        | <span data-cusdis-count-page-id="583bc6c089052d23ac6c3a855c17f6df">0</span> comments
+        | 2023-02-01
+          | 分类：
+          <a href="https://huang-zifeng.github.io/zh/category/notes/">Notes</a>
+        </p>
+        
+        <div class="header-underline"></div>
+        
+          <div class="clearfix"></div>
+          <p class="float-right header-tags">
+              <i class="fas fa-tags" aria-hidden="true"></i>
+              <a href="https://huang-zifeng.github.io/zh/tag/%E5%8D%9A%E5%AE%A2/">博客</a>
+          </p>
+        
+        
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+  <main>
+<div class="container content">
+  <articl data-pagefind-body>
+  <p>今天在这里给大家分享如何快速用Hugo搭建自己的个人博客。</p>
+<h1 id="一环境搭建">一、环境搭建</h1>
+<p>本文面对对Git有一定基础知识的读者（搭建仓库、Push和Pull操作）</p>
+<p>安装程序的时候最好勾选添加到环境变量选项，如果忘记添加也可以按照Step4手动添加</p>
+<h2 id="1-git安装">1. Git安装</h2>
+<p><a href="https://git-scm.com/downloads">Git - Downloads (git-scm.com)</a></p>
+<h2 id="2-hugo安装">2. Hugo安装</h2>
+<p><a href="https://gohugo.io/installation/windows/">Windows | Hugo (gohugo.io)</a></p>
+<p><a href="https://gohugo.io/installation/macos/">macOS | Hugo (gohugo.io)</a></p>
+<h2 id="3-go安装">3. Go安装</h2>
+<p><a href="https://go.dev/doc/install">Download and install - The Go Programming Language</a></p>
+<p>Go是Hugo在<a href="https://gohugo.io/getting-started/quick-start/">Quick Start</a>里面推荐搭建的编程语言环境</p>
+<h2 id="4-添加环境变量">4. 添加环境变量</h2>
+<p><img src="https://i.328888.xyz/2023/02/01/8Pt6z.png" alt="8Pt6z.png"></p>
+<h1 id="创建-hugo-网站">创建 Hugo 网站</h1>
+<h2 id="1-创建网站">1. 创建网站</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new site site-name<span class="o">(</span>网站名字<span class="o">)</span>
+</span></span></code></pre></div><h2 id="2-安装主题">2. 安装主题</h2>
+<p>Hugo支持广泛的主题，你可以在<a href="https://themes.gohugo.io/">Themes</a>当中选取你想要的主题，每个主题的配置方式有些许不同，应该参考主题对应仓库下的说明，但是以下步骤是每个主题搭建都会遵循的步骤。</p>
+<p>你可以下载主题的最新版本 .zip 文件 并且解压放到 <code>themes</code> 目录.</p>
+<p>另外, 也可以直接把这个主题克隆到 <code>themes</code> 目录:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
+</span></span></code></pre></div><p>或者, 初始化你的项目目录为 git 仓库, 并且把主题仓库作为你的网站目录的子模块</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">git submodule add https://github.com/pseudoyu/hugo-theme-den themes/hugo-theme-den
+</span></span></code></pre></div><p>（PS: <code>Coder</code>主题笔者直接用<code>git clone</code>可以成功，但是<code>den</code>主题只有使用第三种方式的时候才成功，采用前两种方式的时候不会创建<code>.gitmodule</code>文件，后续<code>GitPages</code>在网站时会报错，den默认使用了<code>gitmodule</code>?  未知QAQ）</p>
+<p>下面以den这款主题为例子讲述如何搭建</p>
+<h2 id="3-修改配置文件toml">3. 修改配置文件<code>.toml</code></h2>
+<p>根目录下的<code>config.toml</code>是我们网站的配置文件，一般可以在<code>theme\exampleSite</code>里面直接找到作者推荐的配置文件。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># ------------------------------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ---- General Settings --------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ------------------------------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="nv">baseURL</span> <span class="o">=</span> <span class="s2">&#34;https://example.com&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">title</span> <span class="o">=</span> <span class="s2">&#34;Den&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">theme</span> <span class="o">=</span> <span class="s2">&#34;hugo-theme-den&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#enableRobotsTXT = true       # generate robots.txt</span>
+</span></span><span class="line"><span class="cl"><span class="nv">enableEmoji</span> <span class="o">=</span> <span class="nb">true</span>           <span class="c1"># use emoji support</span>
+</span></span><span class="line"><span class="cl"><span class="nv">hasCJKLanguage</span> <span class="o">=</span> <span class="nb">true</span>        <span class="c1"># detect CJK languages for word count etc.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">preserveTaxonomyNames</span> <span class="o">=</span> <span class="nb">true</span> <span class="c1"># do not make tag names lowercase</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># uglyURLs = true            # more info: https://gohugo.io/content-management/urls/#ugly-urls</span>
+</span></span><span class="line"><span class="cl"><span class="nv">rssLimit</span> <span class="o">=</span> <span class="m">20</span>                <span class="c1"># limit number of entries in RSS feeds</span>
+</span></span><span class="line"><span class="cl"><span class="nv">ignoreErrors</span> <span class="o">=</span> <span class="o">[</span><span class="s2">&#34;error-remote-getjson&#34;</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Copyright, appears in the footer</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># copyright = &#34;&#34;             # default: author.name</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Pagination</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># number of entries per page for archives, tags and categories</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># since we don&#39;t have list view, recommend a large value</span>
+</span></span><span class="line"><span class="cl"><span class="nv">paginate</span> <span class="o">=</span> <span class="m">20</span>
+</span></span><span class="line"><span class="cl"><span class="nv">paginatePath</span> <span class="o">=</span> <span class="s2">&#34;page&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Syntax Hightlight</span>
+</span></span><span class="line"><span class="cl"><span class="nv">PygmentsCodeFences</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl"><span class="nv">PygmentsUseClasses</span> <span class="o">=</span> <span class="nb">true</span>    <span class="c1"># required for shhighlight shortcode</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># service plugins</span>
+</span></span><span class="line"><span class="cl"><span class="nv">disqusShortname</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>         <span class="c1"># disqus_shortname</span>
+</span></span><span class="line"><span class="cl"><span class="nv">googleAnalytics</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>         <span class="c1"># UA-XXXXXXXX-X</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># language support # en / zh-tw / other... translations present in i18n/</span>
+</span></span><span class="line"><span class="cl"><span class="nv">defaultContentLanguage</span> <span class="o">=</span> <span class="s2">&#34;en&#34;</span>           <span class="c1"># Default language to use</span>
+</span></span><span class="line"><span class="cl"><span class="nv">defaultContentLanguageInSubdir</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Links format</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>permalinks<span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">posts</span> <span class="o">=</span> <span class="s2">&#34;/:year/:month/:day/:slug/&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">categories</span> <span class="o">=</span> <span class="s2">&#34;/category/:slug/&#34;</span>      <span class="c1"># required</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">tags</span> <span class="o">=</span> <span class="s2">&#34;/tag/:slug/&#34;</span>                 <span class="c1"># required</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">pages</span> <span class="o">=</span> <span class="s2">&#34;/:slug/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>author<span class="o">]</span>                     <span class="c1"># required</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Jane Doe&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>sitemap<span class="o">]</span>                    <span class="c1"># required</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">changefreq</span> <span class="o">=</span> <span class="s2">&#34;weekly&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">priority</span> <span class="o">=</span> 0.5
+</span></span><span class="line"><span class="cl">  <span class="nv">filename</span> <span class="o">=</span> <span class="s2">&#34;sitemap.xml&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># ------------------------------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ---- Other Params ------------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ------------------------------------- #</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>params<span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">since</span> <span class="o">=</span> <span class="s2">&#34;2017&#34;</span>             <span class="c1"># Site creation time</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">rssFullContent</span> <span class="o">=</span> <span class="nb">true</span>      <span class="c1"># set true to use full content instead of summary</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># site info (optional)</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">keywords</span> <span class="o">=</span> <span class="o">[</span><span class="s2">&#34;Hugo&#34;</span>, <span class="s2">&#34;theme&#34;</span>,<span class="s2">&#34;den&#34;</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;A simple theme for Hugo&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">logoTitle</span> <span class="o">=</span> <span class="s2">&#34;Den&#34;</span> <span class="c1"># shown on top-left, default: title</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">siteLogoImage</span> <span class="o">=</span> <span class="s2">&#34;images/globe.svg&#34;</span>     <span class="c1"># shown besides logoTitle</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># headerTitle = &#34;Den&#34;                   # default: title</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">headerImage</span> <span class="o">=</span> <span class="s2">&#34;images/background.jpg&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">showAuthorCard</span> <span class="o">=</span> <span class="nb">true</span> <span class="c1"># Whether to show author information below the article</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nv">showMenuLanguages</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nv">autoLoadComments</span> <span class="o">=</span> <span class="nb">false</span> <span class="c1"># auto load comment when scrolling down</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># paginate style, default use numbered pagination links</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># if true, use original &#34;Previous&#34; and &#34;Next&#34; links.</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># paginateOriginalStyle = true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">dateFormatToUse</span> <span class="o">=</span> <span class="s2">&#34;2006-01-02&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nv">google_verification</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>  <span class="c1"># Google_Verification</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># Link custom CSS and JS assets</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">#   (relative to /static/css and /static/js respectively)</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">customCSS</span> <span class="o">=</span> <span class="o">[]</span>             <span class="c1"># if [&#39;custom.css&#39;], load &#39;/static/css/custom.css&#39; file</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">customJS</span> <span class="o">=</span> <span class="o">[]</span>              <span class="c1"># if [&#39;custom.js&#39;], load &#39;/static/js/custom.js&#39; file</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># ------------------------------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ---- Related Articles --------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ------------------------------------- #</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>related<span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="c1"># Only include matches with rank &gt;= threshold. This is a normalized rank between 0 and 100.</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">threshold</span> <span class="o">=</span> <span class="m">50</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># To get stable &#34;See also&#34; sections we, by default, exclude newer related pages.</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">includeNewer</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1"># Will lower case keywords in both queries and in the indexes.</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">toLower</span> <span class="o">=</span> <span class="nb">false</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[[</span>related.indices<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;categories&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">weight</span> <span class="o">=</span> <span class="m">200</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[[</span>related.indices<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;keywords&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">weight</span> <span class="o">=</span> <span class="m">150</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[[</span>related.indices<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;tags&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">weight</span> <span class="o">=</span> <span class="m">100</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>languages.en<span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">languageCode</span> <span class="o">=</span> <span class="s2">&#34;en&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">languageName</span> <span class="o">=</span> <span class="s2">&#34;English&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">contentDir</span> <span class="o">=</span> <span class="s2">&#34;content/en&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">weight</span> <span class="o">=</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.en.menu.main<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Notes&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">10</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;notes&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;category/notes/&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.en.menu.main<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;Demos&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">20</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;demos&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;category/demos/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.en.menu.social<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;GitHub&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">10</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;github&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;https://github.com/shaform/hugo-theme-den/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.en.menu.links<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;About Me&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">10</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;about-me&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;https://github.com/shaform/hugo-theme-den/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>languages.zh-tw<span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">languageCode</span> <span class="o">=</span> <span class="s2">&#34;zh-tw&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">languageName</span> <span class="o">=</span> <span class="s2">&#34;繁體中文&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">contentDir</span> <span class="o">=</span> <span class="s2">&#34;content/zh-tw&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nv">weight</span> <span class="o">=</span> <span class="m">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[</span>languages.zh-tw.params<span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">description</span> <span class="o">=</span> <span class="s2">&#34;一個簡單的佈景。&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.zh-tw.menu.main<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;筆記&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">10</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;notes&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;category/notes/&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.zh-tw.menu.main<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;展示&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">20</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;demos&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;category/demos/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.zh-tw.menu.social<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;GitHub&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">10</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;github&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;https://github.com/shaform/hugo-theme-den/&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="o">[[</span>languages.zh-tw.menu.links<span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">name</span> <span class="o">=</span> <span class="s2">&#34;關於我&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">weight</span> <span class="o">=</span> <span class="m">10</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">identifier</span> <span class="o">=</span> <span class="s2">&#34;about-me&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">url</span> <span class="o">=</span> <span class="s2">&#34;https://github.com/shaform/hugo-theme-den/&#34;</span>
+</span></span></code></pre></div><p>一般来说可以直接将<code>theme\exampleSite</code>里面的所有文件都复制到根目录，快速查看网站的效果。</p>
+<h2 id="4发布文章">4.发布文章</h2>
+<p>使用命令</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new posts<span class="se">\f</span>irst-post.md
+</span></span></code></pre></div><p>来发布你的第一篇文章吧。</p>
+<p>注意文章开头的draft要设置成false才可以渲染文章。</p>
+<p><img src="https://i.328888.xyz/2023/02/01/ID885.png" alt="ID885.png"></p>
+<h2 id="5-在本地启动你的网站">5. 在本地启动你的网站</h2>
+<p>使用以下命令启动网站:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo serve
+</span></span></code></pre></div><p>或者</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server
+</span></span></code></pre></div><p>去查看 <code>http://localhost:1313</code>.</p>
+<p><img src="https://i.328888.xyz/2023/02/01/8Tiqy.png" alt="8Tiqy.png"></p>
+<h1 id="在git-pages上面发布你的网站">在Git Pages上面发布你的网站</h1>
+<p>Git Pages上面发布网站。</p>
+
+  </articl>
+
+  
+  
+  
+    <h2>相关文章</h2>
+    <dl class="row">
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+
+  
+
+  
+  
+    
+    <div class="author-card">
+    <div class="underline"></div>
+    <div class="author-box">
+      <div class="author-image"><a href="/zh"><img src="/images/author.webp" alt="Mitcher" /></a></div>
+      <div class="author-content">
+      <p class="author-title">作者</p>
+      <p class="author-name">Mitcher</p>
+      <p class="author-desc">哈尔滨工业大学(深圳)自动化专业在读，会简单的单片机开发,平时喜欢拍照📷、玩游戏🎮，也喜欢折腾深度学习和博客。目标是成为 Full Stack DevOps ，目前在不断努力学习中。在 GitHub 关注我了解更多。</p>
+      </div>
+    </div>
+  </div>
+    
+  
+  
+  <div align="center">
+    <div class="comment-underline"></div>
+</div>
+
+<br>
+
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="100b3e75-de12-486c-95dc-77a9928f7467"
+  data-page-id="/zh/2023/02/01/my-first-post/"
+  data-page-url="/zh/2023/02/01/my-first-post/"
+  data-page-title="搭建你的第一个博客"
+>
+</div>
+
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+</div>
+
+  </main><div class="footer gradient-2">
+  <div class="container footer-container ">
+    <div class="row">
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        <div class="footer-title">网站地图</div>
+        <ul class="list-unstyled">
+            
+              
+                <li><a href="https://huang-zifeng.github.io/zh/tags/">标签</a></li>
+              
+              
+                <li><a href="https://huang-zifeng.github.io/zh/categories/">分类</a></li>
+              
+            
+            
+            
+            <li><a rel="alternate" type="application/rss&#43;xml" href="https://huang-zifeng.github.io/zh/index.xml"><i class="fas fa-rss-square"></i> RSS订阅</a></li>
+            
+            
+            
+        </ul>
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        
+        <div class="footer-title">社群</div>
+        <ul class="list-unstyled">
+          
+          <li><a href="https://github.com/Huang-Zifeng/" rel="noopener" target="_blank">GitHub</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        
+        <div class="footer-title">友链</div>
+        <ul class="list-unstyled">
+          
+          <li><a href="https://github.com/Huang-Zifeng/" rel="noopener" target="_blank">關於我</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <p class="pull-right text-right">
+          <small><em>Powered by <a href="https://gohugo.io" rel="noopener" target="_blank">Hugo</a> - <a href="https://github.com/shaform/hugo-theme-den" rel="noopener" target="_blank">den</a></em></small><br/>
+          <small><em><a href="https://www.hitsz.edu.cn/" rel="noopener" target="_blank">HITSZ</a> - <a href="http://smea.hitsz.edu.cn/" rel="noopener" target="_blank">Automation</a></em></small><br/>
+          <small>
+            &copy;
+            Zifeng Huang
+            2023
+          </small>
+          
+        </p>
+      </div>
+
+      
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" id="scroll-top" class="scroll-top" accesskey="g">
+    <span class="arrow-icon"></span>
+</a>
+<script>
+    var mybutton = document.getElementById("scroll-top");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+</script>
+
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
