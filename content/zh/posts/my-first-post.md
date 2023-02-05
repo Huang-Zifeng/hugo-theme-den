@@ -13,13 +13,13 @@ resources:
 
 今天在这里给大家分享如何用Hugo搭建自己的个人博客。
 
-# 前言
+## 前言
 
 搭建博客这个想法最早受到[ZheWana](https://zhewana.cn/)和朋友[Fun_Cheong](https://funcheong.cn/)的启发，想通过博客作为知识的输出工具和分享平台。后面看到[Pseudoyu](https://www.pseudoyu.com/zh/)的博客之后才知道原来博客可以这样记录生活，于是更加坚定了搭建博客这件事。其中笔者踩了不少的坑才得以呈现此文。当然，这篇文章和任何其他技术类的文章一样，受限于技术日新月异地发展，其中一些细节可能会有出错或者不再适用的情况（笔者踩的另一个坑）。所以也请读者不吝指正文章需要更正的地方，并且带眼识文，不要只执着与此文，更可参考更多的其他文章。
 
 
 
-# 一、环境搭建
+## 一、环境搭建
 
 如果你有能力完成[Quick Start | Hugo (gohugo.io)](https://gohugo.io/getting-started/quick-start/)中的内容，那么你可以跳过本部分内容。
 
@@ -27,35 +27,35 @@ resources:
 
 安装程序的时候最好勾选添加到环境变量选项，如果忘记添加也可以按照Step4手动添加
 
-## 1. Git安装
+### 1. Git安装
 
 [Git - Downloads (git-scm.com)](https://git-scm.com/downloads)
 
-## 2. Hugo安装
+### 2. Hugo安装
 
 [Windows | Hugo (gohugo.io)](https://gohugo.io/installation/windows/)
 
 [macOS | Hugo (gohugo.io)](https://gohugo.io/installation/macos/)
 
-## 3. Go安装
+### 3. Go安装
 
 [Download and install - The Go Programming Language](https://go.dev/doc/install)
 
 Go是Hugo在[Quick Start](https://gohugo.io/getting-started/quick-start/)里面推荐搭建的编程语言环境
 
-## 4. 添加环境变量
+### 4. 添加环境变量
 
 ![8Pt6z.png](https://i.328888.xyz/2023/02/01/8Pt6z.png)
 
-# 二、创建 Hugo 网站
+## 二、创建 Hugo 网站
 
-## 1. 创建网站
+### 1. 创建网站
 
 ```bash
 hugo new site site-name(网站名字)
 ```
 
-## 2. 安装主题
+### 2. 安装主题
 
 Hugo支持广泛的主题，你可以在[Themes](https://themes.gohugo.io/)当中选取你想要的主题，每个主题的配置方式有些许不同，应该参考主题对应仓库下的说明，但是以下步骤是每个主题搭建都会遵循的步骤。
 
@@ -78,7 +78,7 @@ git submodule add https://github.com/pseudoyu/hugo-theme-den themes/hugo-theme-d
 
 下面以den这款主题为例子讲述如何搭建
 
-## 3. 修改配置文件`.toml`
+### 3. 修改配置文件`.toml`
 
 根目录下的`config.toml`是我们网站的配置文件，一般可以在`theme\(主题名字)\exampleSite`里面直接找到作者推荐的配置文件。
 
@@ -259,7 +259,7 @@ defaultContentLanguageInSubdir = true
 
 一般来说可以直接将`theme\(主题名字)\exampleSite`里面的所有文件都复制到根目录，快速查看网站的效果。
 
-## 4. 发布文章
+### 4. 发布文章
 
 使用命令
 
@@ -273,7 +273,7 @@ hugo new posts\first-post.md
 
 ![ID885.png](https://i.328888.xyz/2023/02/01/ID885.png)
 
-## 5. 在本地启动你的网站
+### 5. 在本地启动你的网站
 
 使用以下命令启动网站:
 
@@ -291,9 +291,9 @@ hugo server
 
 ![8Tiqy.png](https://i.328888.xyz/2023/02/01/8Tiqy.png)
 
-# 三、在Git Pages上面发布你的网站
+## 三、在Git Pages上面发布你的网站
 
-## 1. 新建仓库
+### 1. 新建仓库
 
 首先，我们新建一个仓库
 
@@ -301,7 +301,7 @@ hugo server
 
 除了仓库名字格式为username.github.io外，不要进行其他设置，因为这样会建立分支，而我们想要的是push代码的时候直接创建分支，避免引起冲突。
 
-## 2.生成静态网站
+### 2.生成静态网站
 
 在根目录下使用命令
 
@@ -311,7 +311,7 @@ hugo
 
 为博客生成静态文件，文件默认会保存在目录public\下，Git Pages部署的静态网站正是里面的内容。
 
-## 3. 修改仓库设置和配置文件
+### 3. 修改仓库设置和配置文件
 
 上传之前，我们先到GitHub的仓库中进行Git Pages的相关设定。进入仓库，打开`Setting-Pages`,按照下图进行设定，
 
@@ -343,7 +343,7 @@ git push origin master # 直接用git push会失败，以后还是尽量要指�
 
 这时候其实还没有完成，你会发现点开其中任何一个链接都会超链接失败，显示`404 Page Not Found`，因此我们需要复制最开始的网址，将它替换掉`config.toml`中`baseURL = "https://example.com"`这一句里面的网址，重新执行`hugo`生成静态文件，推送代码上去才可以看到我们网站完整的效果。
 
-# 参考资料
+## 参考资料
 
 [浅谈我为什么从 HEXO 迁移到 HUGO - 少数派 (sspai.com)](https://sspai.com/post/59904)（当时碰的坑是GitHub Pages没有设置对，没有弄清楚GitHub Pages的原理，看到这篇文章解决了，发布了第一个以coder为主题的网站）
 
