@@ -13,7 +13,15 @@ resources:
 
 今天在这里给大家分享如何用Hugo搭建自己的个人博客。
 
+# 前言
+
+搭建博客这个想法最早受到[ZheWana](https://zhewana.cn/)和朋友[Fun_Cheong](https://funcheong.cn/)的启发，想通过博客作为知识的输出工具和分享平台。后面看到[Pseudoyu](https://www.pseudoyu.com/zh/)的博客之后才知道原来博客可以这样记录生活，于是更加坚定了搭建博客这件事。其中笔者踩了不少的坑才得以呈现此文。当然，这篇文章和任何其他技术类的文章一样，受限于技术日新月异地发展，其中一些细节可能会有出错或者不再适用的情况（笔者踩的另一个坑）。所以也请读者不吝指正文章需要更正的地方，并且带眼识文，不要只执着与此文，更可参考更多的其他文章。
+
+
+
 # 一、环境搭建
+
+如果你有能力完成[Quick Start | Hugo (gohugo.io)](https://gohugo.io/getting-started/quick-start/)中的内容，那么你可以跳过本部分内容。
 
 本文面对对Git有一定基础知识的读者（搭建仓库、Push和Pull操作）
 
@@ -39,7 +47,7 @@ Go是Hugo在[Quick Start](https://gohugo.io/getting-started/quick-start/)里面�
 
 ![8Pt6z.png](https://i.328888.xyz/2023/02/01/8Pt6z.png)
 
-# 创建 Hugo 网站
+# 二、创建 Hugo 网站
 
 ## 1. 创建网站
 
@@ -66,13 +74,13 @@ git init
 git submodule add https://github.com/pseudoyu/hugo-theme-den themes/hugo-theme-den
 ```
 
-（PS: `Coder`主题笔者直接用`git clone`可以成功，但是`den`主题只有使用第三种方式的时候才成功，采用前两种方式的时候不会创建`.gitmodule`文件，后续`GitPages`在网站时会报错，den默认使用了`gitmodule`?  未知QAQ）
+（PS: `Coder`主题笔者直接用`git clone`可以成功，但是`den`主题只有使用第三种方式的时候才成功，采用前两种方式的时候不会创建`.gitmodule`文件，后续`GitHub Pages`在网站时会报错，den默认使用了`gitmodule`?  未知QAQ）
 
 下面以den这款主题为例子讲述如何搭建
 
 ## 3. 修改配置文件`.toml`
 
-根目录下的`config.toml`是我们网站的配置文件，一般可以在`theme\exampleSite`里面直接找到作者推荐的配置文件。
+根目录下的`config.toml`是我们网站的配置文件，一般可以在`theme\(主题名字)\exampleSite`里面直接找到作者推荐的配置文件。
 
 ```bash
 # ------------------------------------- #
@@ -249,9 +257,9 @@ defaultContentLanguageInSubdir = true
 
 ```
 
-一般来说可以直接将`theme\exampleSite`里面的所有文件都复制到根目录，快速查看网站的效果。
+一般来说可以直接将`theme\(主题名字)\exampleSite`里面的所有文件都复制到根目录，快速查看网站的效果。
 
-## 4.发布文章
+## 4. 发布文章
 
 使用命令
 
@@ -283,5 +291,61 @@ hugo server
 
 ![8Tiqy.png](https://i.328888.xyz/2023/02/01/8Tiqy.png)
 
-# 在Git Pages上面发布你的网站
+# 三、在Git Pages上面发布你的网站
+
+## 1. 新建仓库
+
+首先，我们新建一个仓库
+
+![rDZMH.png](https://i.328888.xyz/2023/02/06/rDZMH.png)
+
+除了仓库名字格式为username.github.io外，不要进行其他设置，因为这样会建立分支，而我们想要的是push代码的时候直接创建分支，避免引起冲突。
+
+## 2.生成静态网站
+
+在根目录下使用命令
+
+```bash
+hugo
+```
+
+为博客生成静态文件，文件默认会保存在目录public\下，Git Pages部署的静态网站正是里面的内容。
+
+## 3. 修改仓库设置和配置文件
+
+上传之前，我们先到GitHub的仓库中进行Git Pages的相关设定。进入仓库，打开`Setting-Pages`,按照下图进行设定，
+
+![rAFob.png](https://i.328888.xyz/2023/02/06/rAFob.png)
+
+可以看到，GitHub Pages将通过branch分支的`docs\`目录构建我们的网站。
+
+但是我们的发布目录是在`publish`目录中，所以我们要在`config.toml`中添加下列语句
+
+```toml
+publishDir = "docs"
+```
+
+这样，我们使用`hugo`命令生成的网站就会生成在`docs\`目录下
+
+重新执行命令`hugo`
+
+接着在根目录下将代码上传
+
+```bash
+git init # 初始化仓库
+git remote add origin https://github.com/Huang-Zifeng/Huang-Zifeng.github.io.git # 修改为自己仓库的路径
+git add .
+git commit -m "update"
+git push origin master # 直接用git push会失败，以后还是尽量要指定分支
+```
+
+接着，经过大概5分钟左右的等待之后，你就可以通过访问`xxx.github.io`（这个网址第一次最好还是在上图所示中的`Visit Site`来获得，毕竟有时候你可能不知道自己设置的网址是否和你期待的一样）来查看你的网站。
+
+这时候其实还没有完成，你会发现点开其中任何一个链接都会超链接失败，显示`404 Page Not Found`，因此我们需要复制最开始的网址，将它替换掉`config.toml`中`baseURL = "https://example.com"`这一句里面的网址，重新执行`hugo`生成静态文件，推送代码上去才可以看到我们网站完整的效果。
+
+# 参考资料
+
+[浅谈我为什么从 HEXO 迁移到 HUGO - 少数派 (sspai.com)](https://sspai.com/post/59904)（当时碰的坑是GitHub Pages没有设置对，没有弄清楚GitHub Pages的原理，看到这篇文章解决了，发布了第一个以coder为主题的网站）
+
+[Hugo + GitHub Action，搭建你的博客自动发布系统 · Pseudoyu](https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_action/)（现在用的主题den和这篇文章的作者一样，Pseudoyu是一位热爱博客的博主，你可以在他的网站里面学习更多自定义博客的知识，以及发掘博客的乐趣，后面笔者很多问题都是Pseudoyu帮我解决的。这篇文章主要参考的是主题的配置以及GitHub Action自动部署）
 
