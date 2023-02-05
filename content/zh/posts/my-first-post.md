@@ -285,4 +285,3 @@ hugo server
 
 # 在Git Pages上面发布你的网站
 
-Git Pages上面发布网站。
