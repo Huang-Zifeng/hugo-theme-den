@@ -1,7 +1,7 @@
 # ------------------------------------- #
 # ---- General Settings --------------- #
 # ------------------------------------- #
-baseURL = "https://huang-zifeng.github.io/"
+baseURL = "https://www.huang-zifeng.com/"
 title = "Mitcher"
 theme = "hugo-theme-den"
 enableRobotsTXT = true      # generate robots.txt
