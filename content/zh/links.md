@@ -22,6 +22,6 @@ rss_ignore: true
 我的博客信息：
 
 > - **名称:** Mitcher
-> - **地址:** https://huang-zifeng.github.io/
+> - **地址:** https://www.huang-zifeng.com/
 > - **头像:** https://huang-zifeng.github.io/images/author.webp
 > - **描述:** 20嵗，是個學生
