@@ -1,5 +1,5 @@
 ---
-title: "利用Hugo+GitHub Pages搭建你的第一个博客"
+title: "通过Hugo+GitHub Pages搭建你的第一个博客"
 date: 2023-02-01T12:10:21+08:00
 draft: false
 tags: ["博客"]
@@ -39,7 +39,7 @@ resources:
 
 [Download and install - The Go Programming Language](https://go.dev/doc/install)
 
-Go是Hugo在[Quick Start](https://gohugo.io/getting-started/quick-start/)里面推荐搭建的编程语言环境
+Hugo是用Go语言编写的静态网站生成工具。
 
 ### 4. 添加环境变量
 
@@ -289,7 +289,7 @@ hugo server
 
 ![8Tiqy.png](https://i.328888.xyz/2023/02/01/8Tiqy.png)
 
-## 三、在Git Pages上面发布你的网站
+## 三、在GitHub Pages上面发布你的网站
 
 ### 1. 新建仓库
 
@@ -307,11 +307,11 @@ hugo server
 hugo
 ```
 
-为博客生成静态文件，文件默认会保存在目录public\下，Git Pages部署的静态网站正是里面的内容。
+为博客生成静态文件，文件默认会保存在目录public\下，GitHub Pages部署的静态网站正是里面的内容。
 
 ### 3. 修改仓库设置和配置文件
 
-上传之前，我们先到GitHub的仓库中进行Git Pages的相关设定。进入仓库，打开`Setting-Pages`,按照下图进行设定，
+上传之前，我们先到GitHub的仓库中进行GitHub Pages的相关设定。进入仓库，打开`Setting-Pages`,按照下图进行设定，
 
 ![rAFob.png](https://i.328888.xyz/2023/02/06/rAFob.png)
 
