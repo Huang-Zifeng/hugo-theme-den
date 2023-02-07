@@ -23,5 +23,5 @@ rss_ignore: true
 
 > - **名称:** Mitcher
 > - **地址:** https://www.huang-zifeng.com/
-> - **头像:** https://huang-zifeng.github.io/images/author.webp
+> - **头像:** https://www.huang-zifeng.com/images/author.webp
 > - **描述:** 20嵗，是個學生
