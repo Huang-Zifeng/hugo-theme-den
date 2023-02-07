@@ -6,9 +6,6 @@ tags: ["博客"]
 categories: ["Notes"]
 authors:
 - "Mitcher"
-resources:
-- name: header
-  src: 'header.jpg'
 ---
 
 ## 前言
