@@ -16,7 +16,7 @@ authors:
 
 umami cloud作为当时朋友推荐的轻量化网站统计工具，似乎只支持.com结尾的域名，于是更加推动了我注册域名的决心
 
-![r9GCa.png](https://i.328888.xyz/2023/02/07/r9GCa.png)
+![](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/20230208175937.png)
 
 ## 腾讯云，心目中的优秀选择
 
@@ -24,7 +24,7 @@ umami cloud作为当时朋友推荐的轻量化网站统计工具，似乎只支
 
 于是，不用备案并且提供免费云服务器的Cloudflare显然是更好的选择。
 
-![rg2IV.png](https://i.328888.xyz/2023/02/07/rg2IV.png)
+![](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rg2IV.png)
 
 ## 抛弃了支付宝的Cloudflare
 
@@ -32,7 +32,7 @@ umami cloud作为当时朋友推荐的轻量化网站统计工具，似乎只支
 
 并且这一画面还是多端尝试（iPad、iPhone），反复确认下出现的多次画面。
 
-![rgwyN.png](https://i.328888.xyz/2023/02/07/rgwyN.png)
+![](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rgwyN.png)
 
 ## NameSilo · domain, cheap, easy and secure
 
@@ -52,7 +52,7 @@ umami cloud作为当时朋友推荐的轻量化网站统计工具，似乎只支
 
 唯独最后一件奇怪的事情就是，当我去GitHub Pages设定的时候，DNS Check会给你提示出错的原因，第一次只添加了CNAME解析记录，那时候显示报错，网站登不上。后来添加了一条A记录，DNS Check的时候显示未解析到网址github.io，遂删除这条记录。这时候抱着绝望的心态，想着今晚先这样吧，然后点了一下以为打不开的网站。然后，它真的打开了！（这可能是最魔幻的一刻，但是也是宣告博客搭建告一段落的一刻）
 
-![rgXqv.png](https://i.328888.xyz/2023/02/07/rgXqv.png)
+![](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rgXqv.png)
 
 ## 加速!
 
@@ -60,13 +60,13 @@ CDN加速是什么？ CDN全称Content Delivery Network，即**内容分发网�
 
 Cloudflare的CDN加速，在概述中，完成提示你的优化设置，并且保存即可（一开始不知道还要点保存）。
 
-![rg7Ey.png](https://i.328888.xyz/2023/02/07/rg7Ey.png)
+![](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rg7Ey.png)
 
 速度确实提升了，后面想到参照Pseudoyu的文章，还是加了一条A记录上去，速度确实肉眼可见的提升了不少。
 
 ## 告一段落
 
-博客的搭建至此可能已经告一段落（后面可能转成PicGo的图床）
+博客的搭建至此可能已经告一段落~~（后面可能转成PicGo的图床，已完成）~~
 
 下面会更加重视内容的输出（毕竟这才是初心）
 

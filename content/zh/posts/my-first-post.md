@@ -43,7 +43,7 @@ Hugo是用Go语言编写的静态网站生成工具。
 
 ### 4. 添加环境变量
 
-![8Pt6z.png](https://i.328888.xyz/2023/02/01/8Pt6z.png)
+![](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/8Pt6z.png)
 
 ## 二、创建 Hugo 网站
 
@@ -269,7 +269,7 @@ hugo new posts\first-post.md
 
 注意文章开头的draft要设置成false才可以渲染文章。
 
-![ID885.png](https://i.328888.xyz/2023/02/01/ID885.png)
+![](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/ID885.png)
 
 ### 5. 在本地启动你的网站
 
@@ -287,7 +287,7 @@ hugo server
 
 去查看 `http://localhost:1313`.
 
-![8Tiqy.png](https://i.328888.xyz/2023/02/01/8Tiqy.png)
+![](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/8Tiqy.png)
 
 ## 三、在GitHub Pages上面发布你的网站
 
@@ -295,7 +295,7 @@ hugo server
 
 首先，我们新建一个仓库
 
-![rDZMH.png](https://i.328888.xyz/2023/02/06/rDZMH.png)
+![](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rDZMH.png)
 
 除了仓库名字格式为username.github.io外，不要进行其他设置，因为这样会建立分支，而我们想要的是push代码的时候直接创建分支，避免引起冲突。
 
@@ -313,7 +313,7 @@ hugo
 
 上传之前，我们先到GitHub的仓库中进行GitHub Pages的相关设定。进入仓库，打开`Setting-Pages`,按照下图进行设定，
 
-![rAFob.png](https://i.328888.xyz/2023/02/06/rAFob.png)
+![](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/rAFob.png)
 
 可以看到，GitHub Pages将通过branch分支的`docs\`目录构建我们的网站。
 
