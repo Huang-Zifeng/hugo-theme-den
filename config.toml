@@ -57,15 +57,15 @@ defaultContentLanguageInSubdir = true
   rssFullContent = true      # set true to use full content instead of summary
 
   # site info (optional)
-  keywords = ["plan","do","life"]
+  keywords = ["Mitcher","Zifeng Huang","Blog"]
   description = "Robotics | Programming | Photography | Misty"
-  logoTitle = "Mitcher" # shown on top-left, default: title
+  logoTitle = "Mitcher's Blog" # shown on top-left, default: title
   # siteLogoImage = "images/fly.png"     # shown besides logoTitle
   # headerTitle = "Mitcher"                   # default: title
   headerImage = "images/background.jpg"
   showAuthorCard = true # Whether to show author information below the article
 
-  showMenuLanguages = false
+  showMenuLanguages = true
 
   autoLoadComments = false # auto load comment when scrolling down
 
