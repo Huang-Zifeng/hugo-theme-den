@@ -2,7 +2,7 @@
 title: "周报 #1 | 拥有自己域名的路上碰到的魔幻事件"
 date: 2023-02-07T01:04:44+08:00
 draft: false
-tags: ["blog", "life", "trouble", "domain", "cloud", "hugo"]
+tags: ["blog"]
 categories: ["Notes"]
 authors:
 - "Mitcher"
