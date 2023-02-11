@@ -14,7 +14,7 @@ authors:
 
 ## 注册域名的导火线，umami
 
-umami cloud作为当时朋友推荐的轻量化网站统计工具，似乎只支持.com结尾的域名，于是更加推动了我注册域名的决心
+umami cloud作为当时朋友推荐的轻量化网站统计工具，不支持GitHub提供的默认域名，于是更加推动了我注册域名的决心
 
 ![](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/20230208175937.png)
 
