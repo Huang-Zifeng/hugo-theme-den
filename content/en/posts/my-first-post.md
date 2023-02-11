@@ -2,8 +2,8 @@
 title: "通过Hugo+GitHub Pages搭建你的第一个博客"
 date: 2023-02-01T12:10:21+08:00
 draft: false
-tags: ["blog"]
-categories: ["notes"]
+tags: ["blog", "hugo"]
+categories: ["Notes"]
 authors:
 - "Mitcher"
 ---
