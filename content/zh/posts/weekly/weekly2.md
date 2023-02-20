@@ -2,7 +2,7 @@
 title: "周报 #2 | 大物考试、法师桥和ChatGPT"
 date: 2023-02-14T00:09:42+08:00
 draft: false
-tags: ["blog", "life", "what's new"]
+tags: ["life", "what's new"]
 categories: ["Notes"]
 authors:
 - "Mitcher"
