@@ -86,7 +86,8 @@ proof：力的平行四边形法则+二力平衡条件
 
 #### 1. 具有光滑接触表面的约束
 
-![image-20230221102336336](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230221102336336.png)![image-20230221102614315](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230221102614315.png)
+![image-20230221102336336](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230221102336336.png)
+{{<figure src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230221102614315.png" alt="啮合齿轮的齿面" align="aligncenter" width="300" caption="啮合齿轮的齿面">}}
 
 **约束力的特点**
 
