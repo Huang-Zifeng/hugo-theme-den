@@ -1,5 +1,5 @@
 ---
-title: "理论力学学习笔记1-静力学公理和物体的受力分析"
+title: "理论力学学习笔记 #1 | 静力学公理和物体的受力分析"
 date: 2023-02-20T21:41:53+08:00
 draft: false
 tags: ["Study Notes","Theoretical Mechanics"]
