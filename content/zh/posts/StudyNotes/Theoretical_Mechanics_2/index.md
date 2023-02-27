@@ -35,7 +35,7 @@ resources:
 
 意义：衡量力对刚体的转动效应，绝对值大小等于力的大小与力臂的乘积，用正负号表示转向，力使物体绕矩心逆时针转向转动时为正，反之为负。
 
-![](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230227123653535.png)
+![image-20230227232516064](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230227232516064.png)
 $$
 M_o(F)=\pm Fh
 $$
