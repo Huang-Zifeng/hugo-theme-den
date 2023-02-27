@@ -11,7 +11,7 @@ resources:
   src: 'header.jpg'
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=209400&auto=1&height=66"></iframe>
+{{<audio src="audios/陈绮贞 - 小步舞曲.mp3" caption="《小步舞曲 - 陈绮贞》" >}}
 
 ## § 2-1 平面汇交力系
 
