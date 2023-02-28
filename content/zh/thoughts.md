@@ -16,7 +16,7 @@ draft: false
 
 今天晚上篮球课老师说要去帮忙补上学期的期末考试，遂有了一次打比赛的千载难逢的机会。高考之后很少碰过篮球了，因此今天格外幸运。
 
-![image-20230301004522345](https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230301004522345.png)
+{{<figure src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230301005217593.png" alt="篮球" align="aligncenter" width="350" caption="> 篮球">}}
 
 > Feb 28 0:41
 
