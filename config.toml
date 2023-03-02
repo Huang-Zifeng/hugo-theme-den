@@ -3,7 +3,7 @@
 # ------------------------------------- #
 baseURL = "https://www.huang-zifeng.com/"
 title = "Mitcher"
-theme = ["hugo-theme-den", "hugo-shortcode-roneo-collection"]
+theme = ["hugo-theme-den"]
 enableRobotsTXT = true      # generate robots.txt
 enableEmoji = true           # use emoji support
 hasCJKLanguage = true        # detect CJK languages for word count etc.
@@ -80,8 +80,8 @@ defaultContentLanguageInSubdir = true
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  customCSS = ['custom.css','plyr.css']             # if ['custom.css'], load '/static/css/custom.css' file
-  customJS = ['plyr.polyfilled.js']              # if ['custom.js'], load '/static/js/custom.js' file
+  customCSS = ['custom.css']             # if ['custom.css'], load '/static/css/custom.css' file
+  customJS = []              # if ['custom.js'], load '/static/js/custom.js' file
 
   [markup]
       [markup.goldmark]
