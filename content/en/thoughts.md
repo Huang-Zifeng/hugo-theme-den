@@ -1,5 +1,5 @@
 ---
-title: "隨想"
+title: "Thoughts"
 date: 2023-02-26T10:19:27+08:00
 menu: "main"
 weight: 80
