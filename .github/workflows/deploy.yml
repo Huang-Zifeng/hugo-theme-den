@@ -40,10 +40,10 @@ jobs:
               run: hugo
 
             - name: Run Pagefind
-              use: actions/setup-node@v3
+              uses: actions/setup-node@v3
               with:
                 node-version: 18
-              run: npm i 
+              run: npm i pagefind
               run: npx pagefind --source "docs" --bundle-dir search
 
             - name: Deploy Web
