@@ -11,7 +11,6 @@ rss_ignore: true
 <div class="flink" id="article-container">
 <div class="friend-list-div" >
 {{< friend name="FunCheong" url="https://funcheong.cn/" logo="http://images.funcheong.cn/laughingCat.jpg" word="你相信引力吗" >}}{{< friend name="Pseudoyu" url="https://www.pseudoyu.com/" logo="https://www.pseudoyu.com/images/author.webp" word="区块链开发工程师，喜欢探索新技术" >}}{{< friend name="ZheWana" url="https://zhewana.cn/" logo="https://zhewana.cn/wp-content/uploads/2023/01/avatar.png" word="初心未泯" >}}
-
 </div>
 </div>
 
