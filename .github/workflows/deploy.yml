@@ -43,7 +43,7 @@ jobs:
               run: npx pagefind --source "docs" --bundle-dir ../static/_pagefind
 
             - name: Build Web 2
-              run: hugo server
+              run: hugo
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
