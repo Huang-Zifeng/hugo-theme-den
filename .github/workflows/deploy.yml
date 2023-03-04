@@ -36,8 +36,14 @@ jobs:
               with:
                   hugo-version: "latest"
 
+            - name: Build Web
+              run: hugo
+
             - name: Run Pagefind
-              run: npm_config_yes=true "hugo && npx pagefind --source "docs" --bundle-dir ../static/_pagefind && hugo"
+              run: npx pagefind --source "docs" --bundle-dir ../static/_pagefind
+
+            - name: Build Web 2
+              run: hugo server
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
