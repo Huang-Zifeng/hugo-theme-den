@@ -39,8 +39,8 @@ jobs:
             - name: Build Web
               run: hugo --gc --minify
 
-            - name: Run Pagefind
-              run: npx -y pagefind --source docs --bundle-dir mysearch
+            # - name: Run Pagefind
+            #   run: npx -y pagefind --source docs
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
