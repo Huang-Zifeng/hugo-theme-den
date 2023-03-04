@@ -40,10 +40,11 @@ jobs:
               run: hugo
 
             - name: Run Pagefind
-              run: npx pagefind --source "docs" --bundle-dir ../static/_pagefind
-
-            - name: Build Web 2
-              run: hugo
+              use: actions/setup-node@v3
+              with:
+                node-version: 18
+              run: npm i 
+              run: npx pagefind --source "docs" --bundle-dir search
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
