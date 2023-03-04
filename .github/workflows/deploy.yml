@@ -40,7 +40,7 @@ jobs:
               run: hugo --gc --minify
 
             - name: Run Pagefind
-              run: npm_config_yes=true npx pagefind --source "docs"
+              run: npm_config_yes=true npx pagefind --source "docs" --bundle-dir ../static/_pagefind
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
