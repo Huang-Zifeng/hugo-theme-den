@@ -1,7 +1,7 @@
 ---
 title: "理论力学学习笔记 #2 | 平面力系"
 date: 2023-02-27T11:29:55+08:00
-draft: true
+draft: false
 tags: ["Theoretical Mechanics"]
 categories: ["Notes"]
 authors:
