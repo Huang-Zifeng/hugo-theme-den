@@ -9,7 +9,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Set PAGEFIND_VERSION
-              run: echo "PAGEFIND_VERSION=0.9.3" >> $GITHUB_ENV
+              run: echo "PAGEFIND_VERSION=0.12.0" >> $GITHUB_ENV
               
             - name: Checkout
               uses: actions/checkout@v3
@@ -17,12 +17,12 @@ jobs:
                   submodules: true
                   fetch-depth: 0
 
-            - name: Install Pagefind v${{ env.PAGEFIND_VERSION }}
-              uses: supplypike/setup-bin@v3
-              with:
-                  uri: "https://github.com/CloudCannon/pagefind/releases/download/v${{ env.PAGEFIND_VERSION }}/pagefind_extended-v${{ env.PAGEFIND_VERSION }}-x86_64-unknown-linux-musl.tar.gz"
-                  name: "pagefind_extended"
-                  version: ${{env.PAGEFIND_VERSION}}
+            # - name: Install Pagefind v${{ env.PAGEFIND_VERSION }}
+            #   uses: supplypike/setup-bin@v3
+            #   with:
+            #       uri: "https://github.com/CloudCannon/pagefind/releases/download/v${{ env.PAGEFIND_VERSION }}/pagefind_extended-v${{ env.PAGEFIND_VERSION }}-x86_64-unknown-linux-musl.tar.gz"
+            #       name: "pagefind_extended"
+            #       version: ${{env.PAGEFIND_VERSION}}
 
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v2
@@ -33,7 +33,7 @@ jobs:
               run: hugo
 
             - name: Run Pagefind
-              run: pagefind_extended --source "public"
+              run: npm_config_yes=true npx pagefind --source "public"
 
 
             - name: Deploy Web
