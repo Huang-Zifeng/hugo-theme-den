@@ -23,10 +23,7 @@ jobs:
               run: hugo
 
             - name: Run Pagefind
-              run: npm_config_yes=true npx pagefind --source "docs" --bundle-dir ../static/search
-
-            - name: Build Web Again
-              run: hugo
+              run: npm_config_yes=true npx pagefind --source "docs" --bundle-dir search
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
