@@ -9,7 +9,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Set PAGEFIND_VERSION
-              run: echo "PAGEFIND_VERSION=0.12.0" >> $GITHUB_ENV
+              run: echo "PAGEFIND_VERSION=0.10.5" >> $GITHUB_ENV
               
             - name: Checkout
               uses: actions/checkout@v2
