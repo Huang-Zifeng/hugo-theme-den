@@ -19,11 +19,11 @@ jobs:
               with:
                   hugo-version: "latest"
 
-            - name: Build Web
-              run: hugo
+            # - name: Build Web
+            #   run: hugo
 
-            - name: Run Pagefind
-              run: npm_config_yes=true npx pagefind --source "public" --bundle-dir ../static/_pagefind
+            # - name: Run Pagefind
+            #   run: npm_config_yes=true npx pagefind --source "public" --bundle-dir ../static/_pagefind
 
             # - name: Commit and push if changed
             #   run: |-
@@ -34,8 +34,11 @@ jobs:
             #       git commit -m "ci: update about page (automatically)" || exit 0
             #       git push
 
-            - name: Build Web
-              run: hugo
+            # - name: Build Web
+            #   run: hugo
+
+            - name: Run a shell script
+              run: startpf.sh
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
