@@ -38,7 +38,7 @@ jobs:
             #   run: hugo
 
             - name: Run a shell script
-              run: startpf.sh
+              run: ./startpf.sh
 
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
