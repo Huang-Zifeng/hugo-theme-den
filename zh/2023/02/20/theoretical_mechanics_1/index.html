@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="zh" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta name="generator" content="Hugo 0.111.1" />
+  <meta charset="utf-8">
+  <title>理论力学学习笔记 #1 | 静力学公理和物体的受力分析 · Mitcher</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<script async defer src="https://analytics.umami.is/script.js" data-website-id="8ff4dc0b-4c73-4410-98b0-462a3594c14c"></script>
+  <meta name="description" content="静力学 引言的引言 以下内容是对《理论力学(I)》（高等教育出版社）的简单概括和摘要，为之后笔者的期末考速通铺下后路。 引言 基础知识： 刚体: 在力的" />
+
+  <meta name="keywords" content="Mitcher, Zifeng Huang, Blog" />
+
+<link rel="canonical" href="https://www.huang-zifeng.com/zh/2023/02/20/theoretical_mechanics_1/" />
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.huang-zifeng.com/css/den.css">
+
+<link rel="stylesheet" href="https://www.huang-zifeng.com/css/custom.css">
+
+
+
+
+<meta property="og:title" content="理论力学学习笔记 #1 | 静力学公理和物体的受力分析" />
+<meta property="og:description" content="静力学 引言的引言 以下内容是对《理论力学(I)》（高等教育出版社）的简单概括和摘要，为之后笔者的期末考速通铺下后路。 引言 基础知识： 刚体: 在力的" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.huang-zifeng.com/zh/2023/02/20/theoretical_mechanics_1/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-20T21:41:53+08:00" />
+<meta property="article:modified_time" content="2023-02-20T21:41:53+08:00" />
+<meta itemprop="name" content="理论力学学习笔记 #1 | 静力学公理和物体的受力分析">
+<meta itemprop="description" content="静力学 引言的引言 以下内容是对《理论力学(I)》（高等教育出版社）的简单概括和摘要，为之后笔者的期末考速通铺下后路。 引言 基础知识： 刚体: 在力的"><meta itemprop="datePublished" content="2023-02-20T21:41:53+08:00" />
+<meta itemprop="dateModified" content="2023-02-20T21:41:53+08:00" />
+<meta itemprop="wordCount" content="1179">
+<meta itemprop="keywords" content="Study Notes,Theoretical Mechanics," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="理论力学学习笔记 #1 | 静力学公理和物体的受力分析"/>
+<meta name="twitter:description" content="静力学 引言的引言 以下内容是对《理论力学(I)》（高等教育出版社）的简单概括和摘要，为之后笔者的期末考速通铺下后路。 引言 基础知识： 刚体: 在力的"/>
+</head>
+<body>
+  
+  <div class="header-container" style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://www.huang-zifeng.com/images/background.jpg'); background-position: center; background-size: cover;">
+  <div class="container">
+  <nav class="header-nav navbar navbar-expand-md navbar-dark light-dark">
+    <div class="header-logo navbar-brand">
+      
+        <a class="float-left" href="https://www.huang-zifeng.com/zh/">
+      
+        
+        
+          Mitcher's Blog
+         
+      </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="nav-menu collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        
+          <li class="nav-item">
+            
+              
+                <a class="nav-link" href="https://www.huang-zifeng.com/zh/category/notes/">筆記</a>
+              
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              <a class="nav-link" href="https://www.huang-zifeng.com/zh/thoughts/">隨想</a>
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              <a class="nav-link" href="https://www.huang-zifeng.com/zh/links/">友鏈</a>
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              <a class="nav-link" href="https://www.huang-zifeng.com/zh/about/">關於</a>
+            
+          </li>
+        
+          <li class="nav-item">
+            
+              <a class="nav-link" href="https://www.huang-zifeng.com/zh/search/">搜索</a>
+            
+          </li>
+        
+        
+          
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.huang-zifeng.com/en/"><i class="fas fa-globe"></i> English</a>
+            </li>
+          
+          
+          
+          
+        
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<div class="container header-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="header-content">
+        <h1 class="header-title">理论力学学习笔记 #1 | 静力学公理和物体的受力分析</h1>
+        <p class="header-date">作者: 
+          Mitcher
+          | <span> 1179 字, 3 分钟</span>
+        
+        | <span data-cusdis-count-page-id="57ef90c91025ff2a61e26dc463a57f8b">0</span> 评论
+        | 2023-02-20
+          | 分类: 
+          <a href="https://www.huang-zifeng.com/zh/category/notes/">Notes</a>
+        </p>
+        
+        <div class="header-underline"></div>
+        
+          <div class="clearfix"></div>
+          <p class="float-right header-tags">
+              <i class="fas fa-tags" aria-hidden="true"></i>
+              <a href="https://www.huang-zifeng.com/zh/tag/study-notes/">Study Notes</a>,
+                <a href="https://www.huang-zifeng.com/zh/tag/theoretical-mechanics/">Theoretical Mechanics</a>
+          </p>
+        
+        
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+  <main>
+<div class="container content">
+  <articl data-pagefind-body>
+  <h2 id="静力学">静力学</h2>
+<h3 id="引言的引言">引言的引言</h3>
+<p>以下内容是对《理论力学(I)》（高等教育出版社）的简单概括和摘要，<del>为之后笔者的期末考速通铺下后路。</del></p>
+<h3 id="引言">引言</h3>
+<p>基础知识：</p>
+<p><strong>刚体:</strong> 在力的作用下，内部任意两点之间的距离始终保持不变的物体</p>
+<p><strong>力的三要素:</strong> 力的大小、方向和作用点</p>
+<p><strong>力系:</strong> 作用在物体上的一群力</p>
+<p>主要研究:</p>
+<p>物体的受力分析</p>
+<p>力系的等效替换</p>
+<p>建立力系的平衡条件</p>
+<h2 id="第一章静力学公理和物体的受力分析">第一章	静力学公理和物体的受力分析</h2>
+<h3 id="1-1静力学公理">1-1	静力学公理</h3>
+<p><strong>公理1	力的平行四边形法则</strong></p>
+<p><strong>公理2	二力平衡条件</strong></p>
+<blockquote>
+<p>作用在同一刚体上的两个力，使刚体保持平衡的充要条件 ⇔两个力的大小相等、方向相反，且作用在同一直线上</p>
+</blockquote>
+<p><strong>公理3	加减平衡力系原理</strong></p>
+<blockquote>
+<p>在任一原有力系上加去或减去任意的平衡力系，与原力系对刚体的作用效果等效</p>
+</blockquote>
+<p><strong>推理1	力的可传性</strong></p>
+<blockquote>
+<p>作用于刚体上某点的力，可以沿着它的作用线移到刚体内任意一点，并不改变该力对刚体的作用</p>
+</blockquote>
+<p>proof：加减平衡力系定理</p>
+<p><strong>推理2	三力平衡交汇定理</strong></p>
+<blockquote>
+<p>刚体在三个力作用下平衡，如果其中两个力的作用线交于一点，则第三个力的作用线必通过此交汇点，且三个力位于同一平面内</p>
+</blockquote>
+<p>proof：力的平行四边形法则+二力平衡条件</p>
+<p><strong>公理4	作用和反作用定律</strong></p>
+<blockquote>
+<p>作用力和反作用力总是同时存在、大小相等、方向相反，沿着同一条直线作用在两个两个相互作用的物体上</p>
+</blockquote>
+<p><strong>公理5	钢化原理</strong></p>
+<blockquote>
+<p>变形体在某一力系的作用下处于平衡，如将变形体化为刚体，其平衡状态保持不变。</p>
+</blockquote>
+<p>注意：反之不成立，即刚体的平衡条件是变形体平衡的必要条件而非充分条件</p>
+<h3 id="1-2约束和约束力">1-2	约束和约束力</h3>
+<p><strong>非自由体</strong></p>
+<blockquote>
+<p>位移受到限制，如火车</p>
+</blockquote>
+<p><strong>约束</strong></p>
+<blockquote>
+<p>对非自由体的某些位移起限制作用的周围物体</p>
+</blockquote>
+<p><strong>约束力</strong></p>
+<blockquote>
+<p>约束对物体的作用力</p>
+</blockquote>
+<h4 id="常见的约束类型">常见的约束类型</h4>
+<h4 id="1-具有光滑接触表面的约束">1. 具有光滑接触表面的约束</h4>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230221102336336.png" alt="image-20230221102336336">
+
+<link rel="stylesheet" href="https://www.huang-zifeng.com/css/hugo-easy-gallery.css" />
+<div class="box aligncenter" style="max-width:300px;">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img  itemprop="thumbnail" src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230221102614315.png" alt="啮合齿轮的齿面" />
+    </div>
+    
+      <figcaption>
+          <p>啮合齿轮的齿面
+              
+          </p>
+      </figcaption>
+  </figure>
+</div>
+</p>
+<p><strong>约束力的特点</strong></p>
+<p>作用在接触点处，方向沿接触表面的公法线，并指向被约束的物体，这种约束力称为法向约束力</p>
+<h4 id="2-由柔软的绳索链条或胶带等构成的约束">2. 由柔软的绳索、链条或胶带等构成的约束</h4>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230221102659683.png" alt="image-20230221102659683"></p>
+<p><strong>约束力的特点</strong></p>
+<p>力的方向总是沿着绳子方向，如果是如图1-8所示的传送带链条，那么方向沿着切线方向(也是沿绳)</p>
+<h4 id="3-光滑铰链约束">3. 光滑铰链约束</h4>
+<p>(1)	向心轴承</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230221103326534.png" alt="image-20230221103326534"></p>
+<p><strong>约束力的特点</strong></p>
+<p>约束力的方向预先不确定，但是约束力的作用线必垂直于轴线通过轴心，处理方法：分解成两个大小未知的正交分力，如图b、d所示</p>
+<p>(2)	圆柱铰链和固定铰链支座（A和B是固定铰链支座，C是圆柱铰链）</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230221103741019.png" alt="image-20230221103741019"></p>
+<p>I和II通过销钉C连接</p>
+<p><strong>约束力的特点</strong></p>
+<p>和向心轴承的处理方法一样，但是假设了I在点C的受力之后根据公理4可以得出II的受力</p>
+<h4 id="4-其他约束">4. 其他约束</h4>
+<p>滚动支座</p>
+<p>结构特点：在固定铰链支座和光滑支撑面之间由轴辊构成</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230221104135726.png" alt="image-20230221104135726"></p>
+<p><strong>约束力的特点</strong></p>
+<p>与光滑面约束相同，约束力垂直于支撑面</p>
+<h3 id="1-3受力分析和受力图">1-3	受力分析和受力图</h3>
+<p>1.步骤：</p>
+<p>(1)	画主动力（重力，风力，气体压力）</p>
+<p>(2)	画约束力（根据1-2中介绍的类型和1-1中的公理与推理）</p>
+<p>经验：先整体后隔离，受力少优先隔</p>
+<p>2.二力构件（二力杆）</p>
+<p>如果一个构件在两个力的作用下平衡，那么这两个力必沿着两力作用点的连线，且等值、反向</p>
+<p>例子：</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230221104926426.png" alt="image-20230221104926426"></p>
+<p>CD为一重量不计的斜杆，由于只受到两个力，所以根据二力杆的特性可以得出其受力分析如下所示：</p>
+<p><img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230221105101077.png" alt="image-20230221105101077"></p>
+
+  </articl>
+
+  
+  
+  
+    <h2>相关文章</h2>
+    <dl class="row">
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    <dt class="col-md-3">2023-02-27</dt>
+    <dd class="col-md-9"><a href="/zh/2023/02/27/theoretical_mechanics_2/">理论力学学习笔记 #2 | 平面力系</a></dd>
+    
+  
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+    
+    
+    </dl>
+  
+
+  
+
+  
+  
+    
+    <div class="author-card">
+    <div class="underline"></div>
+    <div class="author-box">
+      <div class="author-image"><a href="https://huang-zifeng.github.io/"><img src="/images/author.webp" alt="Mitcher" /></a></div>
+      <div class="author-content">
+      <p class="author-title">作者</p>
+      <p class="author-name">Mitcher</p>
+      <p class="author-desc">哈尔滨工业大学(深圳)自动化21级学生，会简单的单片机开发,平时喜欢拍照📷、玩游戏🎮，也偶尔折腾深度学习和博客。目标是成为 Full Stack DevOps ，目前在不断努力学习中。在 GitHub 关注我了解更多。</p>
+      </div>
+    </div>
+  </div>
+    
+  
+  
+  <div align="center">
+    <div class="comment-underline"></div>
+</div>
+
+<br>
+
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="100b3e75-de12-486c-95dc-77a9928f7467"
+  data-page-id="57ef90c91025ff2a61e26dc463a57f8b"
+  data-page-url="https://www.huang-zifeng.com/zh/2023/02/20/theoretical_mechanics_1/"
+  data-page-title="理论力学学习笔记 #1 | 静力学公理和物体的受力分析"
+>
+</div>
+
+<script defer src="https://cusdis.com/js/widget/lang/zh-cn.js"></script>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+<script defer data-host="https://cusdis.com" data-app-id="100b3e75-de12-486c-95dc-77a9928f7467" src="https://cusdis.com/js/cusdis-count.umd.js"></script>
+</div>
+
+  </main><div class="footer gradient-2">
+  <div class="container footer-container ">
+    <div class="row">
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        <div class="footer-title">网站地图</div>
+        <ul class="list-unstyled">
+            
+              
+                <li><a href="https://www.huang-zifeng.com/zh/tags/">标签</a></li>
+              
+              
+                <li><a href="https://www.huang-zifeng.com/zh/categories/">分类</a></li>
+              
+            
+            
+            
+            <li><a rel="alternate" type="application/rss&#43;xml" href="https://www.huang-zifeng.com/zh/index.xml"><i class="fas fa-rss-square"></i> RSS</a></li>
+            
+            
+            
+        </ul>
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        
+        <div class="footer-title">社交</div>
+        <ul class="list-unstyled">
+          
+          <li><a href="https://github.com/Huang-Zifeng/" rel="noopener" target="_blank">GitHub</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+        
+        <div class="footer-title">关于</div>
+        <ul class="list-unstyled">
+          
+          <li><a href="https://github.com/Huang-Zifeng/" rel="noopener" target="_blank">關於我</a></li>
+          
+        </ul>
+        
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <p class="pull-right text-right">
+          <small><em>Powered by <a href="https://gohugo.io" rel="noopener" target="_blank">Hugo</a> - <a href="https://github.com/shaform/hugo-theme-den" rel="noopener" target="_blank">den</a></em></small><br/>
+          <small><em><a href="https://www.hitsz.edu.cn/" rel="noopener" target="_blank">HITSZ</a> - <a href="http://smea.hitsz.edu.cn/" rel="noopener" target="_blank">Automation</a></em></small><br/>
+          <small>
+            &copy;
+            Zifeng Huang
+            2023
+          </small>
+          
+        </p>
+      </div>
+
+      
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" id="scroll-top" class="scroll-top" accesskey="g">
+    <span class="arrow-icon"></span>
+</a>
+<script>
+    var mybutton = document.getElementById("scroll-top");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+</script>
+
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Study Notes on Mitcher</title>
+    <link>https://www.huang-zifeng.com/zh/tag/study-notes/</link>
+    <description>Recent content in Study Notes on Mitcher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 20 Feb 2023 21:41:53 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/zh/tag/study-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>理论力学学习笔记 #1 | 静力学公理和物体的受力分析</title>
+      <link>https://www.huang-zifeng.com/zh/2023/02/20/theoretical_mechanics_1/</link>
+      <pubDate>Mon, 20 Feb 2023 21:41:53 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/zh/2023/02/20/theoretical_mechanics_1/</guid>
+      <description>静力学 引言的引言 以下内容是对《理论力学(I)》（高等教育出版社）的简单概括和摘要，为之后笔者的期末考速通铺下后路。 引言 基础知识： 刚体: 在力的</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Mitcher</title>
+    <link>https://www.huang-zifeng.com/zh/category/notes/</link>
+    <description>Recent content in Notes on Mitcher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 04 Mar 2023 22:57:05 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/zh/category/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://www.huang-zifeng.com/zh/2023/03/04/test/</link>
+      <pubDate>Sat, 04 Mar 2023 22:57:05 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/zh/2023/03/04/test/</guid>
+      <description>早上好</description>
+    </item>
+    
+    <item>
+      <title>周报 #2 ｜小情绪</title>
+      <link>https://www.huang-zifeng.com/zh/2023/03/03/weekly2/</link>
+      <pubDate>Fri, 03 Mar 2023 01:44:01 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/zh/2023/03/03/weekly2/</guid>
+      <description>本篇是对2023-2-24到2023-3-3这周生活的记录和思考。 这周是开学第二周，课程和生活逐渐步入了正轨。没有外卖，没有前几周那种暴饮暴</description>
+    </item>
+    
+    <item>
+      <title>数字电子技术基础学习笔记 #1 | 数制和码制</title>
+      <link>https://www.huang-zifeng.com/zh/2023/03/01/digital_fundamental_1/</link>
+      <pubDate>Wed, 01 Mar 2023 17:56:06 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/zh/2023/03/01/digital_fundamental_1/</guid>
+      <description>数制 数制之间的转换： 二进制/八进制/十六进制转十进制：略。 十进制转二进制/八进制/十六进制： 以二进制为例 整数部分除二取余，逆序排列（所谓逆序</description>
+    </item>
+    
+    <item>
+      <title>理论力学学习笔记 #2 | 平面力系</title>
+      <link>https://www.huang-zifeng.com/zh/2023/02/27/theoretical_mechanics_2/</link>
+      <pubDate>Mon, 27 Feb 2023 11:29:55 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/zh/2023/02/27/theoretical_mechanics_2/</guid>
+      <description>前言 与第一次笔记不同，会更多用自己的语言去描述知识，以增进知识的理解，疏漏难免，望读者不吝斧正 § 2-1 平面汇交力系 1. 平面汇交力系合成的几何法、力</description>
+    </item>
+    
+    <item>
+      <title>理论力学学习笔记 #1 | 静力学公理和物体的受力分析</title>
+      <link>https://www.huang-zifeng.com/zh/2023/02/20/theoretical_mechanics_1/</link>
+      <pubDate>Mon, 20 Feb 2023 21:41:53 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/zh/2023/02/20/theoretical_mechanics_1/</guid>
+      <description>静力学 引言的引言 以下内容是对《理论力学(I)》（高等教育出版社）的简单概括和摘要，为之后笔者的期末考速通铺下后路。 引言 基础知识： 刚体: 在力的</description>
+    </item>
+    
+    <item>
+      <title>周报 #1 | 大物考试、法师桥和ChatGPT</title>
+      <link>https://www.huang-zifeng.com/zh/2023/02/14/weekly1/</link>
+      <pubDate>Tue, 14 Feb 2023 00:09:42 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/zh/2023/02/14/weekly1/</guid>
+      <description>本篇是对2023-02-08 到 2023-02-14 这周生活的记录与思考。 这周的大部分时间都在复习物理考试，也留出很多时间进一步完善刚刚搭建不久的博客。因为没有</description>
+    </item>
+    
+    <item>
+      <title>拥有自己域名的路上碰到的魔幻事件</title>
+      <link>https://www.huang-zifeng.com/zh/2023/02/07/how_i_setup_my_domain/</link>
+      <pubDate>Tue, 07 Feb 2023 01:04:44 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/zh/2023/02/07/how_i_setup_my_domain/</guid>
+      <description>前言 搭建好博客之后，因为GitHub Pages在国内访问的速度问题，拥有自己的域名并配置CDN加速是一件很合情合理的事情。但是在拥有域名的路</description>
+    </item>
+    
+    <item>
+      <title>通过Hugo&#43;GitHub Pages搭建你的第一个博客</title>
+      <link>https://www.huang-zifeng.com/zh/2023/02/01/my-first-post/</link>
+      <pubDate>Wed, 01 Feb 2023 12:10:21 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/zh/2023/02/01/my-first-post/</guid>
+      <description>今天在这里给大家分享如何用Hugo搭建自己的个人博客。 前言 搭建博客这个想法最早受到ZheWana和朋友Fun_Cheong的启发，想通过博客</description>
+    </item>
+    
+  </channel>
+</rss>
