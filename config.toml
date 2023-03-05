@@ -10,7 +10,6 @@ hasCJKLanguage = true        # detect CJK languages for word count etc.
 preserveTaxonomyNames = true # do not make tag names lowercase
 # uglyURLs = true            # more info: https://gohugo.io/content-management/urls/#ugly-urls
 rssLimit = 100                # limit number of entries in RSS feeds
-publishDir = "docs"
 
 # Copyright, appears in the footer
 # copyright = ""             # default: author.name

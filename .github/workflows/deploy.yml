@@ -22,11 +22,14 @@ jobs:
             - name: Build Web
               run: hugo
 
+            - name: Run Pagefind
+              run: npm_config_yes=true npx pagefind --source "public"
+
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
               with:
                   PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
                   EXTERNAL_REPOSITORY: Huang-Zifeng/Huang-Zifeng.github.io
                   PUBLISH_BRANCH: cf-pages
-                  PUBLISH_DIR: ./docs
+                  PUBLISH_DIR: ./public
                   commit_message: ${{ github.event.head_commit.message }}
