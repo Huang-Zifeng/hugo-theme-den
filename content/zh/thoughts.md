@@ -4,7 +4,7 @@ date: 2023-02-26T10:19:27+08:00
 menu: "main"
 weight: 80
 draft: false
-rss_ignore:true
+rss_ignore: true
 ---
 
 ## 💭隨想
