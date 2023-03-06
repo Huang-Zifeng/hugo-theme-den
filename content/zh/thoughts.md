@@ -4,6 +4,7 @@ date: 2023-02-26T10:19:27+08:00
 menu: "main"
 weight: 80
 draft: false
+rss_ignore:true
 ---
 
 ## 💭隨想
@@ -12,9 +13,25 @@ draft: false
 
 ## 2023
 
+#### March
+
+这几天发生了许多事。
+
+和思申学长聊过，做Research最重要是idea，当然，现在做好这件事情的关键是安排好时间和合理的进度安排。
+
+和小高参加跑步活动，更了解了对方
+
+电赛，工训都要开始了，baseline有点多
+
+折腾`pagefind`花费了大量的时间，先不折腾了，等作者修复兼容性。（或者等放假）（疑似css冲突，根据ChatGPT的回复）
+
+明天要好好努力！😴
+
+> Mar 7 2:27
+
 #### February
 
-今天晚上篮球课老师说要去帮忙补上学期的期末考试，遂有了一次打比赛的千载难逢的机会。高考之后很少碰过篮球了，因此今天格外幸运。
+今天晚上篮球课老师说要去帮忙补上学期的期末考试，遂有了一次打比赛的千载难逢的机会。高考之后很少碰过篮球了，因此今天格外开森。
 
 {{<figure src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230301005217593.png" alt="篮球" align="aligncenter" width="350" caption="> 篮球">}}
 
