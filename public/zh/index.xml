@@ -105,8 +105,8 @@
       <content:encoded><![CDATA[<p>这是一个测试文档，</p>
 <p><code>Pagefind</code>是一个有着相对不错口碑的静态网站索引生成工具。</p>
 <p>However，作为一个小白，我深刻感受到了<code>Pagefind</code>的不友好。即使完全复刻他人仓库所成功的操作，但是仍然不见效果。</p>
-<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+<link href="/mysearch/pagefind-ui.css" rel="stylesheet">
+<script src="/mysearch/pagefind-ui.js" type="text/javascript"></script>
 
 <div id="search"></div>
 <script>
