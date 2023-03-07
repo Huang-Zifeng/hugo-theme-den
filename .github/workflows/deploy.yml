@@ -4,8 +4,8 @@ on:
     push:
     workflow_dispatch:
 
-env:
-  PAGEFIND_VERSION: 0.12.0
+# env:
+#   PAGEFIND_VERSION: 0.12.0
 
 jobs:
     build:
