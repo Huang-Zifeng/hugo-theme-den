@@ -16,3 +16,8 @@ However，作为一个小白，我深刻感受到了`Pagefind`的不友好。即
 
 {{<search>}}
 
+```<script\>
+<script\>
+  new PagefindUI({element:"#search"})
+</script\>
+```
