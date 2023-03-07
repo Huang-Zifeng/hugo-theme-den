@@ -6,7 +6,7 @@ weight: 90
 rss_ignore: true
 ---
 
-## 🔗 友鏈
+## 友鏈🔗 
 
 <div class="flink" id="article-container">
 <div class="friend-list-div" >
@@ -14,7 +14,7 @@ rss_ignore: true
 </div>
 </div>
 
-## ✋  一起成为朋友吧
+## 一起成为朋友吧✋  
 
 交换友链可发邮件至 Mitcher2022@outlook.com
 
