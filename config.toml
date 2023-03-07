@@ -1,7 +1,7 @@
 # ------------------------------------- #
 # ---- General Settings --------------- #
 # ------------------------------------- #
-baseURL = "https:/www.huang-zifeng.com/"
+baseURL = "https://www.huang-zifeng.com/"
 title = "Pseudoyu"
 theme = "hugo-theme-den"
 enableRobotsTXT = true      # generate robots.txt
