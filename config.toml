@@ -2,15 +2,14 @@
 # ---- General Settings --------------- #
 # ------------------------------------- #
 baseURL = "https://www.huang-zifeng.com/"
-title = "Pseudoyu"
-theme = "hugo-theme-den"
+title = "Mitcher"
+theme = ["hugo-theme-den"]
 enableRobotsTXT = true      # generate robots.txt
 enableEmoji = true           # use emoji support
 hasCJKLanguage = true        # detect CJK languages for word count etc.
 preserveTaxonomyNames = true # do not make tag names lowercase
 # uglyURLs = true            # more info: https://gohugo.io/content-management/urls/#ugly-urls
 rssLimit = 100                # limit number of entries in RSS feeds
-page_view_conter = true
 
 # Copyright, appears in the footer
 # copyright = ""             # default: author.name
@@ -26,8 +25,8 @@ PygmentsCodeFences = true
 PygmentsUseClasses = true    # required for shhighlight shortcode
 
 # service plugins
-disqusShortname = ""         # disqus_shortname
-googleAnalytics = ""         # UA-XXXXXXXX-X
+# disqusShortname = ""         # disqus_shortname
+# googleAnalytics = ""         # UA-XXXXXXXX-X
 
 # language support # en / zh / other... translations present in i18n/
 defaultContentLanguage = "zh"           # Default language to use
@@ -41,7 +40,7 @@ defaultContentLanguageInSubdir = true
   pages = "/:slug/"
 
 [author]                     # required
-  name = "Yu Zhang"
+  name = "Zifeng Huang"
 
 [sitemap]                    # required
   changefreq = "weekly"
@@ -53,16 +52,16 @@ defaultContentLanguageInSubdir = true
 # ------------------------------------- #
 
 [params]
-  since = "2020"             # Site creation time
+  since = "2023"             # Site creation time
   rssFullContent = true      # set true to use full content instead of summary
 
   # site info (optional)
-  keywords = ["hugo","blockchain","programming"]
-  description = "Blockchain | Programming | Photography | Misty"
-  logoTitle = "Pseudoyu" # shown on top-left, default: title
-  siteLogoImage = "images/fly.png"     # shown besides logoTitle
-  # headerTitle = "Pseudoyu"                   # default: title
-  headerImage = "images/background.webp"
+  keywords = ["Mitcher","Zifeng Huang","Blog"]
+  description = "Robotics | Programming | Photography | Misty"
+  logoTitle = "Mitcher's Blog" # shown on top-left, default: title
+  # siteLogoImage = "images/fly.png"     # shown besides logoTitle
+  # headerTitle = "Mitcher"                   # default: title
+  headerImage = "images/background.jpg"
   showAuthorCard = true # Whether to show author information below the article
 
   showMenuLanguages = true
@@ -113,123 +112,54 @@ defaultContentLanguageInSubdir = true
   name = "tags"
   weight = 100
 
+
 [languages.en]
   languageCode = "en"
   languageName = "English"
   contentDir = "content/en"
-  weight = 2
+  weight = 1
 
   [[languages.en.menu.main]]
-    name = "Idea"
+    name = "Notes"
     weight = 10
-    identifier = "ideas"
-    url = "category/ideas/"
-  [[languages.en.menu.main]]
-    name = "Tool"
-    weight = 20
-    identifier = "tools"
-    url = "category/tools/"
-  [[languages.en.menu.main]]
-    name = "Develop"
-    weight = 30
-    identifier = "develop"
-    url = "category/develop/"
+    identifier = "notes"
+    url = "category/notes/"
 
   [[languages.en.menu.social]]
-    name = "Telegram"
-    weight = 10
-    identifier = "telegram"
-    url = "https://t.me/pseudoyulife"
-  [[languages.en.menu.social]]
-    name = "Twitter"
-    weight = 20
-    identifier = "twitter"
-    url = "https://twitter.com/pseudo_yu"
-  [[languages.en.menu.social]]
-    name = "Instagram"
-    weight = 30
-    identifier = "instagram"
-    url = "https://www.instagram.com/pseudo.yu/"
-  [[languages.en.menu.social]]
-    name = "BiliBili"
-    weight = 40
-    identifier = "bilibili"
-    url = "https://space.bilibili.com/5374948/"
-
-  [[languages.en.menu.links]]
-    name = "Yu's GitHub"
+    name = "GitHub"
     weight = 10
     identifier = "github"
-    url = "https://github.com/pseudoyu"
-  [[languages.en.menu.links]]
-    name = "Yu's Services"
-    weight = 20
-    identifier = "services-status"
-    url = "https://uptime.pseudoyu.com/status/services"
-  [[languages.en.menu.links]]
-    name = "M1sty's Blog"
-    weight = 30
-    identifier = "m1sty"
-    url = "https://www.m1sty.com/"
+    url = "https://github.com/Huang-Zifeng/"
 
-  [languages.zh]
+  [[languages.en.menu.links]]
+    name = "About Me"
+    weight = 10
+    identifier = "about-me"
+    url = "https://github.com/Huang-Zifeng/"
+
+[languages.zh]
   languageCode = "zh"
   languageName = "中文"
   contentDir = "content/zh"
-  weight = 1
+  weight = 2
 
   [languages.zh.params]
-    description = "Blockchain | Programming | Photography | Misty"
+    description = "20嵗，是個學生。"
 
   [[languages.zh.menu.main]]
-    name = "思考"
+    name = "筆記"
     weight = 10
-    identifier = "ideas"
-    url = "category/ideas/"
-  [[languages.zh.menu.main]]
-    name = "工具"
-    weight = 20
-    identifier = "tools"
-    url = "category/tools/"
-  [[languages.zh.menu.main]]
-    name = "编程"
-    weight = 30
-    identifier = "develop"
-    url = "category/develop/"
+    identifier = "notes"
+    url = "category/notes/"
 
   [[languages.zh.menu.social]]
-    name = "Telegram"
-    weight = 10
-    identifier = "telegram"
-    url = "https://t.me/pseudoyulife"
-  [[languages.zh.menu.social]]
-    name = "Twitter"
-    weight = 20
-    identifier = "twitter"
-    url = "https://twitter.com/pseudo_yu"
-  [[languages.zh.menu.social]]
-    name = "Instagram"
-    weight = 30
-    identifier = "instagram"
-    url = "https://www.instagram.com/pseudo.yu/"
-  [[languages.zh.menu.social]]
-    name = "BiliBili"
-    weight = 40
-    identifier = "bilibili"
-    url = "https://space.bilibili.com/5374948/"
-
-  [[languages.zh.menu.links]]
-    name = "Yu's GitHub"
+    name = "GitHub"
     weight = 10
     identifier = "github"
-    url = "https://github.com/pseudoyu"
+    url = "https://github.com/Huang-Zifeng/"
+
   [[languages.zh.menu.links]]
-    name = "Yu's Services"
-    weight = 20
-    identifier = "services-status"
-    url = "https://uptime.pseudoyu.com/status/services"
-  [[languages.zh.menu.links]]
-    name = "M1sty's Blog"
-    weight = 30
-    identifier = "m1sty"
-    url = "https://www.m1sty.com/"
+    name = "關於我"
+    weight = 10
+    identifier = "about-me"
+    url = "https://github.com/Huang-Zifeng/"
