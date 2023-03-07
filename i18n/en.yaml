@@ -77,7 +77,7 @@
   translation: 'Author: '
 
 - id: related
-  translation: See Also
+  translation: Related Posts
 
 - id: load_disqus
   translation: Load Disqus Comments
