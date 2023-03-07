@@ -16,6 +16,6 @@ authors:
 
 However，作为一个小白，我深刻感受到了`Pagefind`的不友好。即使完全复刻他人仓库所成功的操作，但是仍然不见效果
 
-<div id="search"></div>
-<script defer src="page-find-ui.js"></script> <script defer> new PagefindUI({element:“#search”}) </script>
+{{<search>}}
+<script defer> new PagefindUI({element:“#search”}) </script>
 

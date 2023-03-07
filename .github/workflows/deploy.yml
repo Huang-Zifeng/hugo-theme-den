@@ -16,8 +16,6 @@ jobs:
               with:
                   submodules: true
                   fetch-depth: 0
-
-            
             
             # - name: Install Pagefind
             #   uses: supplypike/setup-bin@v3
@@ -33,7 +31,7 @@ jobs:
                   extended: true
 
             - name: Build Web
-              run: hugo --gc --minify
+              run: hugo
 
             - name: Setup Node
               uses: actions/setup-node@v3
