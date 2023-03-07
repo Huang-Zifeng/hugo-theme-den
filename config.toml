@@ -1,7 +1,7 @@
 # ------------------------------------- #
 # ---- General Settings --------------- #
 # ------------------------------------- #
-baseURL = "http://localhost:1313"
+baseURL = "www.huang-zifeng.com"
 title = "Pseudoyu"
 theme = "hugo-theme-den"
 enableRobotsTXT = true      # generate robots.txt
