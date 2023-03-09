@@ -63,6 +63,7 @@ defaultContentLanguageInSubdir = true
   # headerTitle = "Mitcher"                   # default: title
   headerImage = "images/background.jpg"
   showAuthorCard = true # Whether to show author information below the article
+  math = true
 
   showMenuLanguages = true
 

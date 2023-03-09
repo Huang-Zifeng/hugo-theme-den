@@ -102,5 +102,9 @@
   {{ end }}
   <!-- Comments -->
   {{ partial "comments.html" . }}
+  <!-- layouts/partials/head/custom.html -->
+  {{ if or .Params.math .Site.Params.math }}
+    {{ partial "math.html" . }}
+  {{ end }}
 </div>
 {{ end }}

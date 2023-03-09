@@ -1,5 +1,5 @@
 ---
-title: "Writing a English Post"
+title: "Writing In English"
 date: 2023-03-03T13:04:18+08:00
 draft: false
 tags: ["English"]
@@ -8,8 +8,6 @@ authors:
 - "Mitcher"
 ---
 
-I want to, and will, write something in English,
+I am willing to write something in English here in a near future.
 
-not just copying the post in Chinese to the English folder,
-
-with time permitted.
+Most of the contents are written in Chinese and can be found  [here](https://www.huang-zifeng.com/zh/).
