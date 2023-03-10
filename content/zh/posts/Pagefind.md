@@ -1,5 +1,5 @@
 ---
-title: "为你的博客创建搜索引擎————谈谈我在搭建Pagefind时踩过的坑"
+title: "为你的博客创建搜索引擎——谈谈我在搭建Pagefind时踩过的坑"
 date: 2023-03-05T16:04:50+08:00
 draft: false
 tags: ["blog"]
@@ -14,9 +14,9 @@ authors:
 
 具体的搭建教程可以参看[Getting Started](https://pagefind.app/docs/)
 
-其中，在本地安装Pagefind时，第一次使用Git Bash安装没有成功，后面用Command Prompt成功了。
+其中，在本地安装Pagefind时，第一次使用Git Bash安装没有成功，后面用Command Prompt安装成功了。
 
-踩过的坑可以查看笔者在Pagefind仓库提出的[Issue](https://github.com/CloudCannon/pagefind/issues/240)
+其他踩过的坑可以查看笔者在Pagefind仓库提出的[Issue](https://github.com/CloudCannon/pagefind/issues/240)
 
 搭建过程中得到了很多人的帮助。后面有机会会详细记录。
 

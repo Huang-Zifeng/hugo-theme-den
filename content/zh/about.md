@@ -4,6 +4,7 @@ date: 2023-02-02T13:10:27+08:00
 menu: "main"
 weight: 100
 draft: false
+rss_ignore: true
 ---
 
 ## ✋ Hi，我是黄梓峰
