@@ -55,4 +55,4 @@ Magnetically Actuated Capsule Robots: A Review（介绍了磁驱动胶囊机器�
 
 ### 生活剪影📷
 
-{{<figure src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/0386c233b79fad3824bbc3cdf2070c9.jpg" alt="丢酸油柑" align="aligncenter" width="350" caption="> 和比利那晚喝的丢酸油柑，油柑曾是小时候很喜欢的水果">}}
+{{<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/0386c233b79fad3824bbc3cdf2070c9.jpg" alt="丢酸油柑" align="aligncenter" width="350" caption="> 和比利那晚喝的丢酸油柑，油柑曾是小时候很喜欢的水果">}}

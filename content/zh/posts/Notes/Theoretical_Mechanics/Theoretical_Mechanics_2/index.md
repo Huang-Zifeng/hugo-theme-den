@@ -43,7 +43,7 @@ resources:
 
 衡量力对刚体的转动效应，绝对值大小等于力的大小与力臂的乘积，用正负号表示转向，力使物体绕矩心**逆时针转向转动时为正，顺时针为负号**，转向符合右手定则。
 
-{{<figure src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230227232516064.png" alt="力矩定义" width="250">}}
+{{<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230227232516064.png" alt="力矩定义" width="250">}}
 
 $M=\pm Fh$
 
@@ -53,9 +53,9 @@ $M=\pm Fh$
 
 #### 三角形分布载荷
 
-{{<figure src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230310022739292.png" alt="三角形分布载荷" width="250">}}
+{{<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230310022739292.png" alt="三角形分布载荷" width="250">}}
 
-{{<figure src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230310023854619.png" alt="image-20230310023854619" width="250">}}
+{{<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230310023854619.png" alt="image-20230310023854619" width="250">}}
 
 $F=\frac12ql$
 
@@ -83,11 +83,11 @@ $F=\frac12ql$
 
 **应用**：
 
-{{<figure src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230310021348317.png" alt="固定端约束" width="250">}}
+{{<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230310021348317.png" alt="固定端约束" width="250">}}
 
 如图(a)所示有一固定端约束，FAy的作用力一般不会在交界处，但是这样会导致我们在计算A点的力矩时造成很大的麻烦，所以，我们是用力的平移定理，将FAy平移到交界处，此时再增加一个附加力偶M，即可得到如图(c)所示的等效，此时更方便地求解点A的约束力（注意，这里的约束力还应该包含力偶MA）
 
-{{<figure src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230310022231701.png" alt="固定端约束" width="250">}}
+{{<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230310022231701.png" alt="固定端约束" width="250">}}
 
 **平面任意力系向作用点内任意一点的化简**
 

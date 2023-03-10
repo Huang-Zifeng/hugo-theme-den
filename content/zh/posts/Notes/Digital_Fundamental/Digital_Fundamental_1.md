@@ -30,7 +30,7 @@ authors:
 
   小数点往左/往右每三个数作为一个整体（2的三次方为8），不够的添零补齐，便可得到
   
-   {{<figure src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230302013303520.png" alt="image-20230302013303520" width="250">}}
+   {{<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230302013303520.png" alt="image-20230302013303520" width="250">}}
 
 ## 码制
 
@@ -42,7 +42,7 @@ authors:
 
 也可以使用算数方法，
 
-{{<figure src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230302013714575.png" alt="N Inverse" width="250">}}
+{{<img src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230302013714575.png" alt="N Inverse" width="250">}}
 
 常用编码：
 
