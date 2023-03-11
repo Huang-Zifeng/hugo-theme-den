@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mitcher</title>
+    <link>https://www.huang-zifeng.com/en/</link>
+    <description>Recent content on Mitcher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Mar 2023 13:04:18 +0800</lastBuildDate>
+    
+    <atom:link href="https://www.huang-zifeng.com/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thoughts</title>
+      <link>https://www.huang-zifeng.com/en/thoughts/</link>
+      <pubDate>Sun, 26 Feb 2023 10:19:27 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/en/thoughts/</guid>
+      <description>💭隨想 这里是随想。受到Pin 起來！中的Stream启发而建立。 2023 February 今天晚上篮球课老师说要去帮忙补上学期的期末考试，遂有了一次打比赛的千载难逢</description>
+      <content:encoded><![CDATA[<h2 id="隨想">💭隨想</h2>
+<p>这里是随想。受到<a href="https://pinchlime.com/">Pin 起來！</a>中的<a href="https://pinchlime.com/stream/2023/">Stream</a>启发而建立。</p>
+<h2 id="2023">2023</h2>
+<h4 id="february">February</h4>
+<p>今天晚上篮球课老师说要去帮忙补上学期的期末考试，遂有了一次打比赛的千载难逢的机会。高考之后很少碰过篮球了，因此今天格外幸运。</p>
+
+<link rel="stylesheet" href="https://www.huang-zifeng.com/css/hugo-easy-gallery.css" />
+<div class="box aligncenter" style="max-width:350px;">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img  itemprop="thumbnail" src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/image-20230301005217593.png" alt="篮球" />
+    </div>
+    
+      <figcaption>
+          <p><blockquote>
+<p>篮球</p>
+</blockquote>
+
+              
+          </p>
+      </figcaption>
+  </figure>
+</div>
+
+<blockquote>
+<p>Feb 28 0:41</p>
+</blockquote>
+<p>今天晚上吃完晚饭，躺在床上一点干劲也没有的时候，比利突然发微信说散步散到了我们学校。庆幸自己的一个晚上就此被拯救。顺便，我们一起去银茶喝的丢酸油挺好喝的，油柑好像是以前小时候经常会吃的水果，不知怎么淡忘了。</p>
+
+
+<div class="box aligncenter" style="max-width:350px;">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img  itemprop="thumbnail" src="https://mitcher-1316637614.cos.ap-nanjing.myqcloud.com/test/0386c233b79fad3824bbc3cdf2070c9.jpg" alt="丢酸油柑" />
+    </div>
+    
+      <figcaption>
+          <p><blockquote>
+<p>丢酸油柑</p>
+</blockquote>
+
+              
+          </p>
+      </figcaption>
+  </figure>
+</div>
+
+<blockquote>
+<p>Feb 27 21:03</p>
+</blockquote>
+<p>OpenAI(确切来说是ChatGPT)应该是我用过最难登录的东西，从禁用虚拟手机号到检查IP地址，没有比它更disgusting的了。</p>
+<blockquote>
+<p>Feb 26 20:51</p>
+</blockquote>
+<p>刚刚在四食堂试了一下新开的汉堡店，味道一般般，价格也一般般。每次进四食堂的时候都会默默替门口右手边的档口感到忧伤。</p>
+<blockquote>
+<p>Feb 26 18:13</p>
+</blockquote>
+<p>以前小学时经常喜欢在QQ空间分享自己无厘头的想法，现在大学了在朋友圈还是做一样的事情或许不太适宜，担心他们看过之后会想：“原来他是这样一个人！”。我也并非对自己不满，只是不想每次发圈都要承想别人的评论。但是来这里的人，也许都是有意了解我的人。Welcome!</p>
+<blockquote>
+<p>Feb 26 10:14</p>
+</blockquote>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Writing In English</title>
+      <link>https://www.huang-zifeng.com/en/2023/03/03/write_in_english/</link>
+      <pubDate>Fri, 03 Mar 2023 13:04:18 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/en/2023/03/03/write_in_english/</guid>
+      <description>I am willing to write something in English here in a near future.
+Most of the contents are written in Chinese and can be found here.</description>
+      <content:encoded><![CDATA[<p>I am willing to write something in English here in a near future.</p>
+<p>Most of the contents are written in Chinese and can be found  <a href="https://www.huang-zifeng.com/zh/">here</a>.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

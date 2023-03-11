@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on Mitcher</title>
+    <link>https://www.huang-zifeng.com/zh/tag/blog/</link>
+    <description>Recent content in blog on Mitcher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 05 Mar 2023 16:04:50 +0800</lastBuildDate><atom:link href="https://www.huang-zifeng.com/zh/tag/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>为你的博客创建搜索引擎——谈谈我在搭建Pagefind时踩过的坑</title>
+      <link>https://www.huang-zifeng.com/zh/2023/03/05/pagefind/</link>
+      <pubDate>Sun, 05 Mar 2023 16:04:50 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/zh/2023/03/05/pagefind/</guid>
+      <description>这原先是一个Pagefind搭建过程中的测试页面。如图所述Pagefind是一个有着相对不错口碑的静态网站索引生成工具。 具体的搭建教程可以参</description>
+    </item>
+    
+    <item>
+      <title>拥有自己域名的路上碰到的魔幻事件</title>
+      <link>https://www.huang-zifeng.com/zh/2023/02/07/how_i_setup_my_domain/</link>
+      <pubDate>Tue, 07 Feb 2023 01:04:44 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/zh/2023/02/07/how_i_setup_my_domain/</guid>
+      <description>前言 搭建好博客之后，因为GitHub Pages在国内访问的速度问题，拥有自己的域名并配置CDN加速是一件很合情合理的事情。但是在拥有域名的路</description>
+    </item>
+    
+    <item>
+      <title>通过Hugo&#43;GitHub Pages搭建你的第一个博客</title>
+      <link>https://www.huang-zifeng.com/zh/2023/02/01/my-first-post/</link>
+      <pubDate>Wed, 01 Feb 2023 12:10:21 +0800</pubDate>
+      
+      <guid>https://www.huang-zifeng.com/zh/2023/02/01/my-first-post/</guid>
+      <description>今天在这里给大家分享如何用Hugo搭建自己的个人博客。 前言 搭建博客这个想法最早受到ZheWana和朋友Fun_Cheong的启发，想通过博客</description>
+    </item>
+    
+  </channel>
+</rss>
